@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Dictum Updates</title>
+        <link>https://github.com/wellwon/dictum-releases</link>
+        <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
+        <language>ru</language>
+
+        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.0.6</title>
+            <pubDate>Fri, 17 Jan 2026 21:42:00 +0300</pubDate>
+            <sparkle:version>206</sparkle:version>
+            <sparkle:shortVersionString>2.0.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <style>
+                    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+                    h2 { color: #1AAF87; }
+                    ul { padding-left: 20px; }
+                    li { margin: 8px 0; }
+                </style>
+                <h2>Dictum 2.0.6</h2>
+                <ul>
+                    <li><strong>Новый визуализатор голоса</strong> — High Frequency стиль, Noise Gate</li>
+                    <li>Исправлена модалка Screen Recording поверх онбординга</li>
+                </ul>
+                <p>Минимальная версия macOS: 14.0 (Sonoma)</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.0.6/Dictum-2.0.6.zip"
+                sparkle:version="206"
+                sparkle:shortVersionString="2.0.6"
+                length="3183708"
+                type="application/octet-stream" />
+        </item>
+
+        <!-- Предыдущая версия -->
+        <item>
+            <title>Версия 2.0.5</title>
+            <pubDate>Thu, 16 Jan 2026 22:46:00 +0300</pubDate>
+            <sparkle:version>205</sparkle:version>
+            <sparkle:shortVersionString>2.0.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[
+                <style>
+                    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+                    h2 { color: #1AAF87; }
+                    ul { padding-left: 20px; }
+                    li { margin: 8px 0; }
+                </style>
+                <h2>Dictum 2.0.5</h2>
+                <ul>
+                    <li><strong>Сохранение разрешений</strong> — после обновления не нужно заново выдавать права</li>
+                    <li>Улучшенная стабильность подписи приложения</li>
+                </ul>
+                <p>Минимальная версия macOS: 14.0 (Sonoma)</p>
+            ]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.0.5/Dictum-2.0.5.zip"
+                sparkle:version="205"
+                sparkle:shortVersionString="2.0.5"
+                length="3078518"
+                type="application/octet-stream" />
+        </item>
+    </channel>
+</rss>
