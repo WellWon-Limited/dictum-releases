@@ -13,20 +13,13 @@
             <sparkle:version>241</sparkle:version>
             <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[
-                <style>
-                    body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
-                    h2 { color: #1AAF87; }
-                    ul { padding-left: 20px; }
-                    li { margin: 8px 0; }
-                </style>
-                <h2>Dictum 2.4.1</h2>
-                <ul>
-                    <li>Автоматические обновления</li>
-                    <li>Улучшения стабильности</li>
-                </ul>
-                <p>Минимальная версия macOS: 14.0 (Sonoma)</p>
-            ]]></description>
+            <description><![CDATA[Dictum 2.4.1
+
+• Защита от крашей — NSException safety, предотвращение deadlock
+• Исправлена диктовка при холодном старте
+• Отдельное окно обновлений
+• Отмена авто-улучшения при повторной диктовке
+• Улучшения стабильности]]></description>
             <enclosure
                 url="https://github.com/wellwon/dictum-releases/releases/download/v2.4.1/Dictum-2.4.1.zip"
                 sparkle:version="241"
