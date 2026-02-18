@@ -16,11 +16,14 @@
             <description><![CDATA[Dictum 2.4.3
 
 [ru]
-• {p}\n• {p}\n• {p}
+• Защита от крашей, исправлена диктовка при холодном старте
+• Локализованные описания обновлений
 [en]
-• {p}\n• {p}\n• {p}
+• Crash hardening, cold-start dictation fix
+• Localized release notes
 [es]
-• {p}\n• {p}\n• {p}]]></description>
+• Protección contra fallos, corrección de dictado en inicio frío
+• Notas de versión localizadas]]></description>
             <enclosure
                 url="https://github.com/wellwon/dictum-releases/releases/download/v2.4.3/Dictum-2.4.3.zip"
                 sparkle:version="243"
