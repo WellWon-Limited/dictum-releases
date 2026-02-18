@@ -6,7 +6,25 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.4.2</title>
+            <pubDate>Wed, 18 Feb 2026 21:59:04 +0300</pubDate>
+            <sparkle:version>242</sparkle:version>
+            <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.4.2
+
+• Исправлено отображение описания обновлений]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.4.2/Dictum-2.4.2.zip"
+                sparkle:version="242"
+                sparkle:shortVersionString="2.4.2"
+                length="4957846"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.4.1</title>
             <pubDate>Wed, 18 Feb 2026 20:43:59 +0300</pubDate>
