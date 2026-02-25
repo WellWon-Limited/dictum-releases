@@ -6,7 +6,39 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.1</title>
+            <pubDate>Wed, 25 Feb 2026 17:00:24 +0300</pubDate>
+            <sparkle:version>251</sparkle:version>
+            <sparkle:shortVersionString>2.5.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.1
+
+[ru]
+• Вставка по курсору в диктовке
+• улучшения автообновлений и DMG-дистрибутива
+• исправление улучшайзера
+• исправление локализации
+[en]
+• Cursor insertion for dictation
+• auto-update improvements
+• enhancer retry fix
+• localization fixes
+[es]
+• Inserción por cursor en dictado
+• mejoras de actualización
+• corrección del mejorador
+• correcciones de localización]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.1/Dictum-2.5.1.zip"
+                sparkle:version="251"
+                sparkle:shortVersionString="2.5.1"
+                length="4966952"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5</title>
             <pubDate>Thu, 19 Feb 2026 20:45:42 +0300</pubDate>
