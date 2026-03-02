@@ -6,7 +6,30 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.5</title>
+            <pubDate>Mon, 02 Mar 2026 14:26:13 +0300</pubDate>
+            <sparkle:version>255</sparkle:version>
+            <sparkle:shortVersionString>2.5.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.5
+
+[ru]
+• Enter works without clicking modal + cold start dictation defense
+[en]
+• Enter works without clicking modal + cold start dictation defense
+[es]
+• Enter works without clicking modal + cold start dictation defense]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.5/Dictum-2.5.5.zip"
+                sparkle:version="255"
+                sparkle:shortVersionString="2.5.5"
+                length="4993390"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.4</title>
             <pubDate>Mon, 02 Mar 2026 14:23:30 +0300</pubDate>
