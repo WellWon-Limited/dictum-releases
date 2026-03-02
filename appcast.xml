@@ -6,7 +6,30 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                        <!-- Текущая версия -->
+                                                                                                                                                                                                                                <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.6</title>
+            <pubDate>Mon, 02 Mar 2026 14:55:56 +0300</pubDate>
+            <sparkle:version>256</sparkle:version>
+            <sparkle:shortVersionString>2.5.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.6
+
+[ru]
+• Fix cold start dictation: wait for Parakeet model loading in speculative recording
+[en]
+• Fix cold start dictation: wait for Parakeet model loading in speculative recording
+[es]
+• Fix cold start dictation: wait for Parakeet model loading in speculative recording]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.6/Dictum-2.5.6.zip"
+                sparkle:version="256"
+                sparkle:shortVersionString="2.5.6"
+                length="4993525"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.5</title>
             <pubDate>Mon, 02 Mar 2026 14:26:13 +0300</pubDate>
