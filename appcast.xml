@@ -6,7 +6,30 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.7</title>
+            <pubDate>Mon, 02 Mar 2026 22:15:00 +0300</pubDate>
+            <sparkle:version>257</sparkle:version>
+            <sparkle:shortVersionString>2.5.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.7
+
+[ru]
+• Enter works globally via CGEvent tap even when modal loses focus
+[en]
+• Enter works globally via CGEvent tap even when modal loses focus
+[es]
+• Enter works globally via CGEvent tap even when modal loses focus]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.7/Dictum-2.5.7.zip"
+                sparkle:version="257"
+                sparkle:shortVersionString="2.5.7"
+                length="4993564"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.6</title>
             <pubDate>Mon, 02 Mar 2026 14:55:56 +0300</pubDate>
