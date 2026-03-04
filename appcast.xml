@@ -6,7 +6,30 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.11</title>
+            <pubDate>Wed, 04 Mar 2026 22:22:57 +0300</pubDate>
+            <sparkle:version>261</sparkle:version>
+            <sparkle:shortVersionString>2.5.11</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.11
+
+[ru]
+• Instant volume ducking via CoreAudio API
+[en]
+• Instant volume ducking via CoreAudio API
+[es]
+• Instant volume ducking via CoreAudio API]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.11/Dictum-2.5.11.zip"
+                sparkle:version="261"
+                sparkle:shortVersionString="2.5.11"
+                length="5079392"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.10</title>
             <pubDate>Wed, 04 Mar 2026 16:19:27 +0300</pubDate>
