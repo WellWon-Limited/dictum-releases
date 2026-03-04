@@ -6,7 +6,39 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.9</title>
+            <pubDate>Wed, 04 Mar 2026 10:37:26 +0300</pubDate>
+            <sparkle:version>259</sparkle:version>
+            <sparkle:shortVersionString>2.5.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.9
+
+[ru]
+• AUHAL capture
+• software AGC
+• Enter fix
+• screenshot JPEG
+[en]
+• AUHAL capture
+• software AGC
+• Enter fix
+• screenshot JPEG
+[es]
+• AUHAL capture
+• software AGC
+• Enter fix
+• screenshot JPEG]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.9/Dictum-2.5.9.zip"
+                sparkle:version="259"
+                sparkle:shortVersionString="2.5.9"
+                length="5082148"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.8</title>
             <pubDate>Mon, 02 Mar 2026 23:14:04 +0300</pubDate>
