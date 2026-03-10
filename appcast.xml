@@ -6,7 +6,36 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.14</title>
+            <pubDate>Tue, 10 Mar 2026 13:16:50 +0300</pubDate>
+            <sparkle:version>264</sparkle:version>
+            <sparkle:shortVersionString>2.5.14</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.14
+
+[ru]
+• Sound system v14: AVAudioEngine zero-latency
+• fix double sounds
+• AUHAL crash fixes
+[en]
+• Sound system v14: AVAudioEngine zero-latency
+• fix double sounds
+• AUHAL crash fixes
+[es]
+• Sound system v14: AVAudioEngine zero-latency
+• fix double sounds
+• AUHAL crash fixes]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.14/Dictum-2.5.14.zip"
+                sparkle:version="264"
+                sparkle:shortVersionString="2.5.14"
+                length="4947780"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.13</title>
             <pubDate>Thu, 05 Mar 2026 11:47:35 +0300</pubDate>
