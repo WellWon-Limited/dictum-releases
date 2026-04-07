@@ -6,7 +6,36 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                                                                        <!-- Текущая версия -->
+                                                                                                                                                                                                                                                                                                <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.15</title>
+            <pubDate>Tue, 07 Apr 2026 20:15:55 +0300</pubDate>
+            <sparkle:version>265</sparkle:version>
+            <sparkle:shortVersionString>2.5.15</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.15
+
+[ru]
+• Fix memory leaks: immediate audioSamples cleanup
+• event monitor disposal
+• timer optimization
+[en]
+• Fix memory leaks: immediate audioSamples cleanup
+• event monitor disposal
+• timer optimization
+[es]
+• Fix memory leaks: immediate audioSamples cleanup
+• event monitor disposal
+• timer optimization]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.15/Dictum-2.5.15.zip"
+                sparkle:version="265"
+                sparkle:shortVersionString="2.5.15"
+                length="4948716"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.14</title>
             <pubDate>Tue, 10 Mar 2026 13:16:50 +0300</pubDate>
