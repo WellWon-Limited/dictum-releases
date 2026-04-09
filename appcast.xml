@@ -6,7 +6,30 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                                                                                        <!-- Текущая версия -->
+                                                                                                                                                                                                                                                                                                                <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.17</title>
+            <pubDate>Thu, 09 Apr 2026 16:31:16 +0300</pubDate>
+            <sparkle:version>267</sparkle:version>
+            <sparkle:shortVersionString>2.5.17</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.17
+
+[ru]
+• Fix HuggingFace rate limit — model now downloads from GitHub
+[en]
+• Fix HuggingFace rate limit — model now downloads from GitHub
+[es]
+• Fix HuggingFace rate limit — model now downloads from GitHub]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.17/Dictum-2.5.17.zip"
+                sparkle:version="267"
+                sparkle:shortVersionString="2.5.17"
+                length="4839498"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.16</title>
             <pubDate>Thu, 09 Apr 2026 13:23:33 +0300</pubDate>
