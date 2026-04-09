@@ -6,7 +6,30 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                                                                                                        <!-- Текущая версия -->
+                                                                                                                                                                                                                                                                                                                                <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.19</title>
+            <pubDate>Thu, 09 Apr 2026 19:12:19 +0300</pubDate>
+            <sparkle:version>269</sparkle:version>
+            <sparkle:shortVersionString>2.5.19</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.19
+
+[ru]
+• Update dialog title: Dictum — доступно обновление!
+[en]
+• Update dialog title: Dictum — доступно обновление!
+[es]
+• Update dialog title: Dictum — доступно обновление!]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.19/Dictum-2.5.19.zip"
+                sparkle:version="269"
+                sparkle:shortVersionString="2.5.19"
+                length="4841996"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.18</title>
             <pubDate>Thu, 09 Apr 2026 17:10:06 +0300</pubDate>
