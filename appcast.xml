@@ -6,7 +6,39 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.16</title>
+            <pubDate>Thu, 09 Apr 2026 13:23:33 +0300</pubDate>
+            <sparkle:version>266</sparkle:version>
+            <sparkle:shortVersionString>2.5.16</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.16
+
+[ru]
+• Upgrade FluidAudio SDK
+• fix Enter during recording
+• inline prompt editor
+• remove emojis from UI
+[en]
+• Upgrade FluidAudio SDK
+• fix Enter during recording
+• inline prompt editor
+• remove emojis from UI
+[es]
+• Upgrade FluidAudio SDK
+• fix Enter during recording
+• inline prompt editor
+• remove emojis from UI]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.16/Dictum-2.5.16.zip"
+                sparkle:version="266"
+                sparkle:shortVersionString="2.5.16"
+                length="4831995"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.15</title>
             <pubDate>Tue, 07 Apr 2026 20:15:55 +0300</pubDate>
