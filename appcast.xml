@@ -6,7 +6,30 @@
         <description>Обновления для Dictum — умный ввод с ИИ для macOS</description>
         <language>ru</language>
 
-                                                                                                                                                                                                                                                                                                                <!-- Текущая версия -->
+                                                                                                                                                                                                                                                                                                                        <!-- Текущая версия -->
+        <item>
+            <title>Версия 2.5.18</title>
+            <pubDate>Thu, 09 Apr 2026 17:10:06 +0300</pubDate>
+            <sparkle:version>268</sparkle:version>
+            <sparkle:shortVersionString>2.5.18</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[Dictum 2.5.18
+
+[ru]
+• Show loading indicator during model compilation
+[en]
+• Show loading indicator during model compilation
+[es]
+• Show loading indicator during model compilation]]></description>
+            <enclosure
+                url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.18/Dictum-2.5.18.zip"
+                sparkle:version="268"
+                sparkle:shortVersionString="2.5.18"
+                length="4841975"
+                type="application/octet-stream" />
+        </item>
+
+<!-- Предыдущая версия -->
         <item>
             <title>Версия 2.5.17</title>
             <pubDate>Thu, 09 Apr 2026 16:31:16 +0300</pubDate>
