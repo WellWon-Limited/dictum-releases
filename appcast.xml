@@ -16,20 +16,23 @@
             <description><![CDATA[Dictum 2.5.20
 
 [ru]
-• Исправления стабильности: редактор скриншотов корректно работает на нескольких мониторах
-• устранены краши при работе с комментариями
-• гонка аудио-захвата
-• утечки памяти и дублирование хоткеев. Автозапуск всегда использует установленную версию.
+• Редактор скриншотов корректно работает на нескольких мониторах
+• Устранены краши при работе с комментариями
+• Исправлена гонка аудио-захвата
+• Устранены утечки памяти и дублирование хоткеев
+• Автозапуск всегда использует установленную версию
 [en]
-• Исправления стабильности: редактор скриншотов корректно работает на нескольких мониторах
-• устранены краши при работе с комментариями
-• гонка аудио-захвата
-• утечки памяти и дублирование хоткеев. Автозапуск всегда использует установленную версию.
+• Screenshot editor now works correctly across multiple displays
+• Fixed crashes when working with comments
+• Fixed an audio capture race condition
+• Fixed memory leaks and duplicate hotkey triggers
+• Launch at login always uses the installed version
 [es]
-• Исправления стабильности: редактор скриншотов корректно работает на нескольких мониторах
-• устранены краши при работе с комментариями
-• гонка аудио-захвата
-• утечки памяти и дублирование хоткеев. Автозапуск всегда использует установленную версию.]]></description>
+• El editor de capturas funciona correctamente con varios monitores
+• Corregidos los cierres inesperados al trabajar con comentarios
+• Corregida una condición de carrera en la captura de audio
+• Corregidas fugas de memoria y atajos duplicados
+• El inicio automático siempre usa la versión instalada]]></description>
             <enclosure
                 url="https://github.com/wellwon/dictum-releases/releases/download/v2.5.20/Dictum-2.5.20.zip"
                 sparkle:version="270"
