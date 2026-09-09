@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dictum="https://wellwon.hk/dictum/appcast">
+  <channel>
+    <title>Dictum Nothy (Windows)</title>
+    <link>https://github.com/WellWon-Limited/dictum-releases</link>
+    <description>Dictum Nothy updates for Windows</description>
+    <language>en</language>
+  </channel>
+</rss>
