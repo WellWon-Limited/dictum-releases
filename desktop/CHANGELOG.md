@@ -1,5 +1,28 @@
 # Dictum Nothy — changelog
 
+## 2.1.4 — 2026-09-14
+
+### Русский
+
+Панель диктовки снова открывается поверх полноэкранных приложений, даже когда они запущены после Dictum.
+
+- Панель переставала появляться в полноэкранном режиме через некоторое время работы: она оставалась привязанной к рабочим столам, которые существовали при её первом показе, и не попадала в полноэкранные пространства, созданные позже.
+- Панель сама проверяет, находится ли она на текущем рабочем столе, и переносит себя на него, если система оставила её в стороне.
+
+### English
+
+The dictation panel opens over fullscreen apps again, even ones started after Dictum.
+
+- The panel stopped appearing in fullscreen after a while: it stayed bound to the Spaces that existed when it was first shown and never reached fullscreen Spaces created later.
+- The panel checks whether it is on the current Space and moves itself there when the system left it behind.
+
+### Español
+
+El panel de dictado vuelve a abrirse sobre aplicaciones a pantalla completa, incluso las iniciadas después de Dictum.
+
+- El panel dejaba de aparecer a pantalla completa después de un rato: quedaba ligado a los espacios que existían en su primera aparición y no llegaba a los espacios a pantalla completa creados después.
+- El panel comprueba si está en el espacio actual y se traslada allí cuando el sistema lo dejó fuera.
+
 ## 2.1.3 — 2026-09-13
 
 ### Русский
