@@ -1,5 +1,43 @@
 # Dictum Nothy — changelog
 
+## 2.1.3 — 2026-09-13
+
+### Русский
+
+Панель диктовки открывается поверх полноэкранных приложений, на мониторах без выреза чёлка показывается по наведению или всегда — по выбору, а текст вставляется туда, где стоит курсор.
+
+- Панель диктовки выпадает поверх приложений в полноэкранном режиме на любом дисплее.
+- На дисплеях без выреза чёлка показывается по наведению курсора к верхней кромке или всегда — настройка «Экраны без выреза» в Основных; в полноэкранном режиме там ничего не отвлекает.
+- Уведомления и панель на дисплеях без выреза выпадают с верхней кромки без чёрного блока камеры и без подписи с версией.
+- Клик вне панели закрывает её, не переключая на другое приложение и его рабочий стол.
+- Текст вставляется в приложение, в которое поставлен курсор, пока панель открыта.
+- Если при запросе разрешения на запись экрана macOS не показал диалог, приложение само открывает нужный раздел Настроек.
+- Чёлка над реальным вырезом больше не двоится при переключении рабочих столов, а её края совпадают с краями панели.
+
+### English
+
+The dictation panel opens over fullscreen apps, on displays without a notch the brow appears on hover or stays put — your choice, and text is pasted where the caret is.
+
+- The dictation panel drops down over fullscreen apps on any display.
+- On displays without a notch the brow appears when the pointer touches the top edge or stays visible — the “Displays without a notch” setting in General; nothing shows there in fullscreen.
+- Notices and the panel on displays without a notch drop from the top edge without the black camera block and without the version label.
+- A click outside the panel closes it without switching to another app and its Space.
+- Text is pasted into the app where the caret was placed while the panel stayed open.
+- If macOS shows no dialog for the Screen Recording request, the app opens the right System Settings pane itself.
+- The brow over a real notch no longer doubles when switching Spaces, and its corners match the panel’s.
+
+### Español
+
+El panel de dictado se abre sobre aplicaciones a pantalla completa, en pantallas sin muesca la ceja aparece al pasar el cursor o se queda fija — a elección, y el texto se pega donde está el cursor.
+
+- El panel de dictado se despliega sobre aplicaciones a pantalla completa en cualquier pantalla.
+- En pantallas sin muesca la ceja aparece cuando el puntero toca el borde superior o permanece visible — ajuste «Pantallas sin muesca» en General; a pantalla completa no aparece nada.
+- Los avisos y el panel en pantallas sin muesca se despliegan desde el borde superior sin el bloque negro de la cámara y sin la etiqueta de versión.
+- Un clic fuera del panel lo cierra sin cambiar a otra aplicación y su espacio.
+- El texto se pega en la aplicación donde se colocó el cursor mientras el panel seguía abierto.
+- Si macOS no muestra el diálogo al solicitar la grabación de pantalla, la aplicación abre por sí misma la sección correcta de Ajustes.
+- La ceja sobre una muesca real ya no se duplica al cambiar de espacio, y sus esquinas coinciden con las del panel.
+
 ## 2.1.2 — 2026-09-13
 
 ### Русский
