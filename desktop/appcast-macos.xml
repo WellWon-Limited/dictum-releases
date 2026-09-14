@@ -7,6 +7,22 @@
     <language>en</language>
 
     <item>
+      <title>Dictum Nothy 2.1.11</title>
+      <pubDate>Mon, 14 Sep 2026 12:47:11 GMT</pubDate>
+      <sparkle:version>2001011</sparkle:version>
+      <sparkle:shortVersionString>2.1.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[[ru]
+<p>Плавное раскрытие панели, новый экран обновления и аккуратный интерфейс на дисплеях с чёлкой и без неё.</p><ul><li>Панель открывается одним движением: убрано краткое появление и втягивание лишней плашки под чёлкой перед основным окном.</li><li>Новый экран обновления: версии, описание изменений и ход загрузки собраны в одной карточке; установка доступна после загрузки и проверки пакета.</li><li>Дисплеи без выреза: основная панель, запись и настройки используют пространство у верхней кромки без лишнего резерва под камеру. Размеры текста, волны и кнопок сохранены.</li><li>Определение дисплея и контур: внешний монитор не наследует вырез ноутбука, а тонкая обводка панели и скруглений снова читается целиком.</li></ul>
+[en]
+<p>Smoother panel opening, a redesigned update window, and a refined interface on displays with or without a notch.</p><ul><li>The panel opens in one motion: removed the brief extra strip that appeared and retracted under the notch before the main window.</li><li>Redesigned update window: versions, release notes and download progress share one card; installation becomes available after the package is downloaded and verified.</li><li>Displays without a notch: the composer, recording panel and settings use the top edge without unnecessary camera space. Text, waveform and control sizes are preserved.</li><li>Display detection and panel border: external monitors no longer inherit the laptop notch, and the thin outline stays consistent around the panel and its curves.</li></ul>
+[es]
+<p>Apertura fluida del panel, una nueva ventana de actualización y una interfaz cuidada en pantallas con o sin muesca.</p><ul><li>El panel se abre en un solo movimiento: se ha eliminado la franja que aparecía y se retraía bajo la muesca antes de la ventana principal.</li><li>Nueva ventana de actualización: versiones, novedades y progreso de descarga en una sola tarjeta; la instalación se habilita tras descargar y verificar el paquete.</li><li>Pantallas sin muesca: el editor, la grabación y los ajustes aprovechan el borde superior sin reservar espacio innecesario para la cámara. Se mantienen los tamaños del texto, la onda y los controles.</li><li>Detección de pantalla y borde: los monitores externos no heredan la muesca del portátil y el contorno fino se mantiene uniforme en el panel y sus curvas.</li></ul>]]></description>
+      <dictum:sha256>65caba1ed1bbd6be1ef9ec5aa43173c11022ea63dd137277758fcb10daa2b60b</dictum:sha256>
+      <enclosure url="https://github.com/WellWon-Limited/dictum-releases/releases/download/nothy-v2.1.11/Dictum-Nothy-2.1.11-macos.zip" length="15080910" type="application/octet-stream" sparkle:version="2001011" sparkle:shortVersionString="2.1.11" />
+    </item>
+
+    <item>
       <title>Dictum Nothy 2.1.4</title>
       <pubDate>Sun, 13 Sep 2026 22:27:04 GMT</pubDate>
       <sparkle:version>2001004</sparkle:version>

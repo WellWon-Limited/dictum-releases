@@ -1,5 +1,34 @@
 # Dictum Nothy — changelog
 
+## 2.1.11 — 2026-09-14
+
+### Русский
+
+Плавное раскрытие панели, новый экран обновления и аккуратный интерфейс на дисплеях с чёлкой и без неё.
+
+- Панель открывается одним движением: убрано краткое появление и втягивание лишней плашки под чёлкой перед основным окном.
+- Новый экран обновления: версии, описание изменений и ход загрузки собраны в одной карточке; установка доступна после загрузки и проверки пакета.
+- Дисплеи без выреза: основная панель, запись и настройки используют пространство у верхней кромки без лишнего резерва под камеру. Размеры текста, волны и кнопок сохранены.
+- Определение дисплея и контур: внешний монитор не наследует вырез ноутбука, а тонкая обводка панели и скруглений снова читается целиком.
+
+### English
+
+Smoother panel opening, a redesigned update window, and a refined interface on displays with or without a notch.
+
+- The panel opens in one motion: removed the brief extra strip that appeared and retracted under the notch before the main window.
+- Redesigned update window: versions, release notes and download progress share one card; installation becomes available after the package is downloaded and verified.
+- Displays without a notch: the composer, recording panel and settings use the top edge without unnecessary camera space. Text, waveform and control sizes are preserved.
+- Display detection and panel border: external monitors no longer inherit the laptop notch, and the thin outline stays consistent around the panel and its curves.
+
+### Español
+
+Apertura fluida del panel, una nueva ventana de actualización y una interfaz cuidada en pantallas con o sin muesca.
+
+- El panel se abre en un solo movimiento: se ha eliminado la franja que aparecía y se retraía bajo la muesca antes de la ventana principal.
+- Nueva ventana de actualización: versiones, novedades y progreso de descarga en una sola tarjeta; la instalación se habilita tras descargar y verificar el paquete.
+- Pantallas sin muesca: el editor, la grabación y los ajustes aprovechan el borde superior sin reservar espacio innecesario para la cámara. Se mantienen los tamaños del texto, la onda y los controles.
+- Detección de pantalla y borde: los monitores externos no heredan la muesca del portátil y el contorno fino se mantiene uniforme en el panel y sus curvas.
+
 ## 2.1.4 — 2026-09-14
 
 ### Русский
