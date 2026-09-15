@@ -7,6 +7,22 @@
     <language>en</language>
 
     <item>
+      <title>Dictum Nothy 2.1.14</title>
+      <pubDate>Tue, 15 Sep 2026 13:05:44 GMT</pubDate>
+      <sparkle:version>2001014</sparkle:version>
+      <sparkle:shortVersionString>2.1.14</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[[ru]
+<p>Более компактные панели, единый мягкий контур и быстрое появление без обрезания текста и кнопок.</p><ul><li>Единая гибридная форма панелей: короткие плашки имеют мягкий наклон, а высокие окна — плавно выпрямляющиеся боковые края.</li><li>При переходе из записи и расшифровки в основное окно анимация больше не запускается повторно и не разрезает текст или кнопки.</li><li>Поле ввода начинается с одной строки и растёт по мере набора. Запись, голосовой промпт, расшифровка и короткие уведомления используют одинаковую высоту.</li><li>Тонкий контур стал темнее и плавно исчезает у верхнего края экрана. Отступы нижних кнопок основного окна стали аккуратнее.</li><li>Первый запуск и окно обновления используют общий контур и быстрое появление. На экранах без чёлки они не оставляют лишний резерв под камеру.</li></ul>
+[en]
+<p>More compact panels, consistent soft curves, and fast opening without cutting through text or controls.</p><ul><li>Consistent hybrid panel shape: short panels have gently sloped sides, while taller windows smoothly transition to upright edges.</li><li>Switching from recording or transcription to the main window no longer restarts the opening animation or cuts through text and controls.</li><li>The input starts at one line and grows as you type. Recording, voice prompts, transcription and short notifications share the same height.</li><li>The thin outline is darker and fades at the top of the screen. Spacing around the main window’s lower controls has been refined.</li><li>Onboarding and the update window use the shared outline and fast opening. Displays without a notch no longer reserve unnecessary camera space in these panels.</li></ul>
+[es]
+<p>Paneles más compactos, curvas suaves y uniformes y apertura rápida sin recortar texto ni controles.</p><ul><li>Forma híbrida uniforme: los paneles cortos tienen lados suavemente inclinados y las ventanas altas pasan gradualmente a bordes verticales.</li><li>Al pasar de la grabación o transcripción a la ventana principal, la animación ya no se reinicia ni recorta texto o controles.</li><li>El campo de entrada empieza con una línea y crece al escribir. La grabación, las instrucciones de voz, la transcripción y los avisos cortos tienen la misma altura.</li><li>El contorno fino es más oscuro y se desvanece en el borde superior de la pantalla. Se han ajustado los márgenes de los controles inferiores.</li><li>La configuración inicial y la ventana de actualización usan el contorno y la apertura rápida comunes. En pantallas sin muesca no reservan espacio innecesario para la cámara.</li></ul>]]></description>
+      <dictum:sha256>a5c93f2241f4b8d830794a86b5f49575ab08dba85ebc7b3c395cd59812b991d6</dictum:sha256>
+      <enclosure url="https://github.com/WellWon-Limited/dictum-releases/releases/download/nothy-v2.1.14/Dictum-Nothy-2.1.14-macos.zip" length="15090153" type="application/octet-stream" sparkle:version="2001014" sparkle:shortVersionString="2.1.14" />
+    </item>
+
+    <item>
       <title>Dictum Nothy 2.1.11</title>
       <pubDate>Mon, 14 Sep 2026 12:47:11 GMT</pubDate>
       <sparkle:version>2001011</sparkle:version>

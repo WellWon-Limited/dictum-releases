@@ -1,5 +1,37 @@
 # Dictum Nothy — changelog
 
+## 2.1.14 — 2026-09-15
+
+### Русский
+
+Более компактные панели, единый мягкий контур и быстрое появление без обрезания текста и кнопок.
+
+- Единая гибридная форма панелей: короткие плашки имеют мягкий наклон, а высокие окна — плавно выпрямляющиеся боковые края.
+- При переходе из записи и расшифровки в основное окно анимация больше не запускается повторно и не разрезает текст или кнопки.
+- Поле ввода начинается с одной строки и растёт по мере набора. Запись, голосовой промпт, расшифровка и короткие уведомления используют одинаковую высоту.
+- Тонкий контур стал темнее и плавно исчезает у верхнего края экрана. Отступы нижних кнопок основного окна стали аккуратнее.
+- Первый запуск и окно обновления используют общий контур и быстрое появление. На экранах без чёлки они не оставляют лишний резерв под камеру.
+
+### English
+
+More compact panels, consistent soft curves, and fast opening without cutting through text or controls.
+
+- Consistent hybrid panel shape: short panels have gently sloped sides, while taller windows smoothly transition to upright edges.
+- Switching from recording or transcription to the main window no longer restarts the opening animation or cuts through text and controls.
+- The input starts at one line and grows as you type. Recording, voice prompts, transcription and short notifications share the same height.
+- The thin outline is darker and fades at the top of the screen. Spacing around the main window’s lower controls has been refined.
+- Onboarding and the update window use the shared outline and fast opening. Displays without a notch no longer reserve unnecessary camera space in these panels.
+
+### Español
+
+Paneles más compactos, curvas suaves y uniformes y apertura rápida sin recortar texto ni controles.
+
+- Forma híbrida uniforme: los paneles cortos tienen lados suavemente inclinados y las ventanas altas pasan gradualmente a bordes verticales.
+- Al pasar de la grabación o transcripción a la ventana principal, la animación ya no se reinicia ni recorta texto o controles.
+- El campo de entrada empieza con una línea y crece al escribir. La grabación, las instrucciones de voz, la transcripción y los avisos cortos tienen la misma altura.
+- El contorno fino es más oscuro y se desvanece en el borde superior de la pantalla. Se han ajustado los márgenes de los controles inferiores.
+- La configuración inicial y la ventana de actualización usan el contorno y la apertura rápida comunes. En pantallas sin muesca no reservan espacio innecesario para la cámara.
+
 ## 2.1.11 — 2026-09-14
 
 ### Русский
