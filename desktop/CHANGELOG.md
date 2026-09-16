@@ -1,5 +1,43 @@
 # Dictum Nothy — changelog
 
+## 2.1.27 — 2026-09-16
+
+### Русский
+
+Голосовой промпт по правому ⌘ работает всегда и открывается мгновенно, OCR по тапу приносит текст в Dictum, компактные статусы у чёлки и новая вкладка «Интерфейс».
+
+- Удержание правого ⌘ всегда записывает голосовой промпт: панель появляется сразу в виде записи, выделенный текст в любом приложении становится контекстом, без выделения промпт выполняется как вопрос.
+- Одиночный тап правого ⌘ выбирает область экрана для распознавания, и распознанный текст открывается в Dictum. С выделенным текстом тап переносит выделение в панель.
+- Пока готовится ответ на голосовой промпт, в строке состояния виден кусок надиктованного промпта; распознавание и ответ показываются одним статусом.
+- Компактные статусы по бокам чёлки: запись, промпт, распознавание и уведомления помещаются в одну строку. Новая вкладка «Настройки → Интерфейс»: компактный или полный вид статусов, язык, вид основного окна и бровь на экранах без чёлки.
+- Единая высота статусов, широкая волна записи, распознавание и ответ — волна из семи точек, длинные уведомления раскрываются по наведению. На мониторах без чёлки волна по центру, таймер справа; таймер одного размера с подписью.
+- Новый красный акцент записи и ошибок. Иностранные слова по умолчанию подсвечиваются жёлтым.
+- После закрытия редактора скриншотов панель Dictum больше не всплывает. Панели заметок, сниппетов и истории открываются на экране активного окна. Исправлены отступы текста в окне обновления и пояснении разрешений.
+
+### English
+
+The Right ⌘ voice prompt always works and opens instantly, tap-to-OCR brings text into Dictum, compact statuses beside the notch and a new Interface tab.
+
+- Holding Right ⌘ always records a voice prompt: the panel opens straight into the recording view, selected text in any app becomes the context, and without a selection the prompt runs as a question.
+- A single Right ⌘ tap selects a screen region for OCR and the recognized text opens in Dictum. With a selection, the tap imports it into the panel.
+- While a voice prompt is being answered, the status line shows a snippet of what you dictated; recognition and the answer share one status.
+- Compact statuses beside the notch: recording, prompt, recognition and notices fit in a single row. New Settings → Interface tab: compact or standard statuses, language, main window view and the brow on screens without a notch.
+- Unified status height, a wider recording wave, a seven-dot wave for recognition and answers, long notices expand on hover. On screens without a notch the wave is centered with the timer on the right; the timer matches the label size.
+- A new red accent for recording and errors. Foreign words are highlighted in yellow by default.
+- Closing the screenshot editor no longer pops up the Dictum panel. Notes, snippets and history open on the active window’s display. Text spacing in the update window and the permissions hint is fixed.
+
+### Español
+
+El prompt de voz con ⌘ derecha siempre funciona y se abre al instante, el OCR con un toque trae el texto a Dictum, estados compactos junto al notch y una nueva pestaña Interfaz.
+
+- Mantener ⌘ derecha siempre graba un prompt de voz: el panel se abre directamente en modo grabación, el texto seleccionado en cualquier app se usa como contexto y sin selección el prompt se ejecuta como pregunta.
+- Un toque de ⌘ derecha selecciona una zona de pantalla para OCR y el texto reconocido se abre en Dictum. Con texto seleccionado, el toque lo importa al panel.
+- Mientras se prepara la respuesta a un prompt de voz, la línea de estado muestra un fragmento de lo dictado; el reconocimiento y la respuesta comparten un solo estado.
+- Estados compactos junto al notch: grabación, prompt, reconocimiento y avisos caben en una sola fila. Nueva pestaña Ajustes → Interfaz: estados compactos o estándar, idioma, vista de la ventana principal y la ceja en pantallas sin notch.
+- Altura uniforme de los estados, onda de grabación más ancha, onda de siete puntos para reconocimiento y respuestas, avisos largos se despliegan al pasar el cursor. En pantallas sin notch la onda va centrada con el temporizador a la derecha; el temporizador tiene el tamaño de la etiqueta.
+- Nuevo acento rojo para grabación y errores. Las palabras extranjeras se resaltan en amarillo por defecto.
+- Al cerrar el editor de capturas ya no aparece el panel de Dictum. Notas, fragmentos e historial se abren en la pantalla de la ventana activa. Se corrigen los márgenes del texto en la ventana de actualización y en la nota de permisos.
+
 ## 2.1.14 — 2026-09-15
 
 ### Русский
