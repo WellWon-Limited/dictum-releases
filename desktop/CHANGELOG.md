@@ -1,5 +1,46 @@
 # Dictum Nothy — changelog
 
+## 2.1.34 — 2026-09-16
+
+### Русский
+
+Двойной правый ⌘ снова улучшает текст, уведомления в одну строку по центру, OCR по тапу копирует текст и отменяется любым жестом, точнее правит раскладку по двойному Shift.
+
+- Двойной правый ⌘ в открытой панели снова улучшает её текст (подпись «Улучшаю…»); вне панели по-прежнему исправляет раскладку по настройке.
+- Одиночный тап правого ⌘ распознаёт выбранную область и кладёт текст в буфер обмена с уведомлением «Текст скопирован»; панель не открывается. Крестик выбора отменяется повторным тапом, клавишей диктовки или закрытием панели.
+- Уведомления и подсказки в одну строку без кнопки «Подробнее»: у чёлки текст делится на два крыла («Выделите область» | «для скриншота», «Текст» | «скопирован»), на мониторах без чёлки — по центру; длинные уведомления раскрываются сразу с плавной анимацией.
+- Мониторы без чёлки: индикатор распознавания и ответа по центру без точек, подпись и таймер записи дальше от краёв, волна по центру, шапка панели и поле ввода ближе к краям.
+- Голосовой промпт: во время распознавания подпись «Распознаю…», затем кусок надиктованного промпта; «Улучшаю…» только у улучшайзера.
+- Двойной Shift: одиночные знаки следуют клавише, смешанное слово в поле Dictum исправляется по хвосту, ручная замена отменяется своим же жестом, отказы записываются в реестр.
+- Двойной Shift читает слово перед курсором через Accessibility, когда журнал клавиш пуст, переводит слово, набранное в другой раскладке, и при выделении возвращается к правилу клавиши.
+- Иностранные слова по умолчанию подсвечиваются жёлтым. Бровь на мониторах без чёлки по-прежнему появляется по наведению.
+
+### English
+
+Double Right ⌘ enhances text again, one-line centred notices, tap-to-OCR copies text and cancels on any other gesture, more precise double-Shift layout repair.
+
+- Double Right ⌘ inside the open panel enhances its text again (“Improving…”); outside the panel it still repairs the keyboard layout per the setting.
+- A single Right ⌘ tap recognizes the selected region and copies the text with a “Text copied” notice; the panel stays closed. The crosshair is cancelled by another tap, the dictation key or closing the panel.
+- Notices and hints on one line without a “Details” button: beside the notch the text is split across the two wings, on screens without a notch it is centred; long notices open at once with a smooth animation.
+- Screens without a notch: the recognition and answer indicator is centred without dots, the recording label and timer sit further from the edges, the wave is centred, the panel header and text field reach closer to the edges.
+- Voice prompt: “Recognizing…” while the engine works, then a snippet of what you dictated; “Improving…” belongs to the enhancer only.
+- Double Shift: lone signs follow the key, a mixed word in the Dictum field is fixed by its tail, a manual retype is undone by the same gesture, refusals are recorded in the registry.
+- Double Shift reads the word before the caret through Accessibility when the key journal is empty, converts a word typed in the other layout, and falls back to the key rule for a selection.
+- Foreign words are highlighted in yellow by default. The brow on screens without a notch still appears on hover.
+
+### Español
+
+⌘ derecha doble vuelve a mejorar el texto, avisos de una línea centrados, el OCR con un toque copia el texto y se cancela con cualquier gesto, corrección de distribución con doble Shift más precisa.
+
+- ⌘ derecha doble en el panel abierto vuelve a mejorar su texto (“Mejorando…”); fuera del panel sigue corrigiendo la distribución según el ajuste.
+- Un toque de ⌘ derecha reconoce la zona seleccionada y copia el texto con el aviso “Texto copiado”; el panel no se abre. La cruz se cancela con otro toque, la tecla de dictado o al cerrar el panel.
+- Avisos y pistas en una línea sin botón “Detalles”: junto al notch el texto se reparte en las dos alas, en pantallas sin notch va centrado; los avisos largos se abren de inmediato con animación suave.
+- Pantallas sin notch: el indicador de reconocimiento y respuesta va centrado sin puntos, la etiqueta y el temporizador de grabación quedan más lejos de los bordes, la onda va centrada, la cabecera y el campo de texto llegan más cerca de los bordes.
+- Prompt de voz: “Reconociendo…” mientras trabaja el motor y luego un fragmento de lo dictado; “Mejorando…” solo para el mejorador.
+- Doble Shift: los signos sueltos siguen la tecla, una palabra mixta en el campo de Dictum se corrige por su cola, un reemplazo manual se deshace con el mismo gesto, los rechazos se registran.
+- Doble Shift lee la palabra antes del cursor mediante Accesibilidad cuando el registro de teclas está vacío, convierte una palabra escrita en la otra distribución y vuelve a la regla de la tecla con una selección.
+- Las palabras extranjeras se resaltan en amarillo por defecto. La ceja en pantallas sin notch sigue apareciendo al pasar el cursor.
+
 ## 2.1.27 — 2026-09-16
 
 ### Русский
