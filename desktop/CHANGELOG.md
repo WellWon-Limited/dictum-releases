@@ -1,5 +1,34 @@
 # Dictum Nothy — changelog
 
+## 2.1.38 — 2026-09-17
+
+### Русский
+
+Панель диктовки открывается заметно быстрее, запись и промпт поверх открытого текста больше не сворачивают окно, Enter после удачной вставки закрывает панель молча.
+
+- Диктовка по удержанию клавиши открывает панель примерно на 110 мс быстрее и без рывков: показ больше не ждёт кадр у скрытого окна, отрисовку по-прежнему гарантирует система (замер по трассе: от нажатия до панели 324 мс было, 211 мс стало).
+- Додиктовка и голосовой промпт поверх уже открытого текста не сворачивают панель в маленькую плашку: запись, распознавание и ответ AI показываются строкой в шапке, поле и кнопки остаются на месте.
+- Enter закрывает панель молча, если текст действительно вставлен в приложение; уведомление «Текст скопирован» остаётся для случая, когда вставить было некуда и текст ушёл только в буфер обмена.
+- Подсказка распознавания текста читается «Выделите область для захвата текста», а заголовок «Улучшить через AI?» на экранах с вырезом прижат к левому краю панели.
+
+### English
+
+The dictation panel opens noticeably faster, recording or prompting over existing text no longer collapses the window, and Enter after a successful paste closes the panel quietly.
+
+- Holding the dictation key brings the panel up about 110 ms sooner and without jitter: the show no longer waits for a frame from a hidden window, while painting is still guaranteed (traced: 324 ms from key press before, 211 ms now).
+- Dictating more text or a voice prompt over an already open panel no longer shrinks it to a small pill: recording, recognition and the AI answer appear in the header line while the field and buttons stay put.
+- Enter closes the panel quietly when the text really was pasted into the app; the “Text copied” notice stays for the case where there was nowhere to paste and the text only reached the clipboard.
+- The text-capture hint now reads “Select an area to capture text”, and the “Enhance with AI?” caption hugs the left edge of the panel on screens with a cutout.
+
+### Español
+
+El panel de dictado se abre notablemente más rápido, grabar o dictar una instrucción sobre el texto abierto ya no colapsa la ventana y Enter tras un pegado correcto cierra el panel en silencio.
+
+- Mantener la tecla de dictado abre el panel unos 110 ms antes y sin saltos: la aparición ya no espera un fotograma de una ventana oculta y el pintado sigue garantizado (medido: 324 ms desde la pulsación antes, 211 ms ahora).
+- Dictar más texto o una instrucción de voz sobre el panel ya abierto deja de encogerlo a una píldora: la grabación, el reconocimiento y la respuesta de la IA se muestran en la línea de cabecera y el campo y los botones no se mueven.
+- Enter cierra el panel en silencio cuando el texto se pegó de verdad en la aplicación; el aviso “Texto copiado” queda para cuando no había dónde pegar y el texto solo llegó al portapapeles.
+- La pista de captura de texto dice ahora “Selecciona un área para capturar texto”, y el rótulo “¿Mejorar con IA?” se pega al borde izquierdo del panel en pantallas con muesca.
+
 ## 2.1.34 — 2026-09-16
 
 ### Русский
