@@ -7,6 +7,22 @@
     <language>en</language>
 
     <item>
+      <title>Dictum Nothy 2.1.39</title>
+      <pubDate>Fri, 18 Sep 2026 19:59:51 GMT</pubDate>
+      <sparkle:version>2001039</sparkle:version>
+      <sparkle:shortVersionString>2.1.39</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[[ru]
+<p>Открытая панель больше не пропускает клики в окно под ней после того, как приложение на пару секунд было занято.</p><ul><li>Если приложение хотя бы раз задерживалось на две секунды (диалог, долгая операция, сон и пробуждение Mac), панель навсегда застывала в режиме «пропускать клики»: щелчок по тексту уходил в браузер под ней, а клик снаружи не закрывал панель. Теперь такая пауза пропускает одну проверку курсора, и панель продолжает принимать клики.</li></ul>
+[en]
+<p>The open panel no longer lets clicks fall through to the window beneath it after the app was busy for a couple of seconds.</p><ul><li>If the app was ever stalled for two seconds (a dialog, a long operation, the Mac sleeping and waking), the panel froze in click-through mode for good: a click on the text went to the browser beneath it and a click outside no longer closed the panel. Such a pause now skips a single cursor check and the panel keeps accepting clicks.</li></ul>
+[es]
+<p>El panel abierto ya no deja pasar los clics a la ventana de debajo después de que la aplicación estuviera ocupada un par de segundos.</p><ul><li>Si la aplicación se quedaba bloqueada dos segundos aunque fuera una vez (un diálogo, una operación larga, el Mac durmiendo y despertando), el panel se congelaba para siempre dejando pasar los clics: un clic en el texto iba al navegador de debajo y un clic fuera ya no cerraba el panel. Ahora esa pausa solo omite una comprobación del cursor y el panel sigue aceptando clics.</li></ul>]]></description>
+      <dictum:sha256>8b28c5f7e67d817371a1453245be54ee60d1678936fdc63a6a31578f0d5dd776</dictum:sha256>
+      <enclosure url="https://github.com/WellWon-Limited/dictum-releases/releases/download/nothy-v2.1.39/Dictum-Nothy-2.1.39-macos.zip" length="15114285" type="application/octet-stream" sparkle:version="2001039" sparkle:shortVersionString="2.1.39" />
+    </item>
+
+    <item>
       <title>Dictum Nothy 2.1.38</title>
       <pubDate>Thu, 17 Sep 2026 08:13:29 GMT</pubDate>
       <sparkle:version>2001038</sparkle:version>

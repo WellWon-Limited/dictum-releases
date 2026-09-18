@@ -1,5 +1,25 @@
 # Dictum Nothy — changelog
 
+## 2.1.39 — 2026-09-18
+
+### Русский
+
+Открытая панель больше не пропускает клики в окно под ней после того, как приложение на пару секунд было занято.
+
+- Если приложение хотя бы раз задерживалось на две секунды (диалог, долгая операция, сон и пробуждение Mac), панель навсегда застывала в режиме «пропускать клики»: щелчок по тексту уходил в браузер под ней, а клик снаружи не закрывал панель. Теперь такая пауза пропускает одну проверку курсора, и панель продолжает принимать клики.
+
+### English
+
+The open panel no longer lets clicks fall through to the window beneath it after the app was busy for a couple of seconds.
+
+- If the app was ever stalled for two seconds (a dialog, a long operation, the Mac sleeping and waking), the panel froze in click-through mode for good: a click on the text went to the browser beneath it and a click outside no longer closed the panel. Such a pause now skips a single cursor check and the panel keeps accepting clicks.
+
+### Español
+
+El panel abierto ya no deja pasar los clics a la ventana de debajo después de que la aplicación estuviera ocupada un par de segundos.
+
+- Si la aplicación se quedaba bloqueada dos segundos aunque fuera una vez (un diálogo, una operación larga, el Mac durmiendo y despertando), el panel se congelaba para siempre dejando pasar los clics: un clic en el texto iba al navegador de debajo y un clic fuera ya no cerraba el panel. Ahora esa pausa solo omite una comprobación del cursor y el panel sigue aceptando clics.
+
 ## 2.1.38 — 2026-09-17
 
 ### Русский
