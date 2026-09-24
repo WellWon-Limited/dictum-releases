@@ -1,5 +1,52 @@
 # Dictum Nothy — changelog
 
+## 2.1.47 — 2026-09-24
+
+### Русский
+
+Переключатель раскладки больше не портит длинные сообщения, работает во всех полях Nothy, понимает выделение в Chrome и учится на ваших исправлениях; распознавание текста с экрана больше не молчит при сбое.
+
+- В длинных сообщениях переключатель больше не меняет окончания правильных слов («тут» → «тen») и по-прежнему исправляет слово, набранное не в той раскладке, в конце сообщения.
+- Двойной Shift сразу после автоматической замены больше не запрещает навсегда исправлять это слово, а пробел после слова остаётся на месте.
+- Английское слово перед точкой или запятой остаётся английским (it. больше не превращается в «шею»).
+- Двойной Shift меняет раскладку выделенного слова в Chrome и приложениях на Electron, а короткое нажатие правого Command забирает оттуда выделенный текст вместо выбора области экрана.
+- Распознавание текста с экрана показывает «Распознаю текст…» и сообщает, если распознать не удалось; при сбое системного распознавания оно повторяется на процессоре и в свежем процессе, без перезапуска Nothy.
+- Enter в редакторе скриншота больше не отправляет текст панели, двойной правый Command в заметках улучшает саму заметку, а подписи внизу панели переведены на все языки.
+- Двойной Shift и автоматическое переключение раскладки работают во всех полях Nothy: заметках, сниппетах, поиске, настройках и комментариях к скриншотам.
+- Переключатель запоминает слова, которые вы дважды одинаково исправили двойным Shift, и дальше меняет их сам.
+- Переключатель узнаёт больше: термины вроде PWA, CRM, SDD и названия моделей, команды Claude Code прямо при наборе (/ьщв → /mod), «и» после английского слова, запятую у слова, залипший Shift, заглавные Э, Ж, Б, Х, Ю, английские сокращения вроде I'm, знак доллара после суммы и вопрос в конце слова.
+- В настройках можно выбрать модель OpenRouter по умолчанию, в том числе DeepSeek V4.1 Flash.
+
+### English
+
+The layout switcher no longer damages long messages, works in every Nothy field, understands selections in Chrome and learns from your corrections; screen text recognition no longer fails silently.
+
+- In long messages the switcher no longer changes the endings of correct words and still fixes a word typed in the wrong layout at the end of the message.
+- A double Shift right after an automatic correction no longer stops that word from ever being fixed again, and the space after the word stays.
+- An English word before a period or comma stays English (it. no longer turns into Russian).
+- A double Shift converts a selected word in Chrome and Electron apps, and a short right Command tap takes the selected text from them instead of starting a screen capture.
+- Screen text recognition shows “Recognizing text…” and tells you when recognition failed; if the system recognizer fails it retries on the CPU and in a fresh process, without restarting Nothy.
+- Enter in the screenshot editor no longer sends the panel text, a double right Command in notes improves the note itself, and the labels at the bottom of the panel are translated into every language.
+- Double Shift and automatic layout switching work in every Nothy field: notes, snippets, search, settings and screenshot comments.
+- The switcher remembers words you fixed the same way twice with a double Shift and converts them by itself from then on.
+- The switcher recognizes more: terms such as PWA, CRM, SDD and model names, Claude Code commands while you type them, a lone letter after an English word, a comma glued to a word, a stuck Shift, capital letters on symbol keys, English contractions such as I'm, a dollar sign after an amount and a question mark after a word.
+- Settings let you choose the default OpenRouter model, including DeepSeek V4.1 Flash.
+
+### Español
+
+El conmutador de distribución ya no estropea los mensajes largos, funciona en todos los campos de Nothy, entiende las selecciones en Chrome y aprende de tus correcciones; el reconocimiento de texto en pantalla ya no falla en silencio.
+
+- En los mensajes largos el conmutador ya no cambia las terminaciones de palabras correctas y sigue corrigiendo una palabra escrita con la distribución equivocada al final del mensaje.
+- Un doble Shift justo después de una corrección automática ya no impide para siempre corregir esa palabra, y el espacio después de la palabra se conserva.
+- Una palabra inglesa antes de un punto o una coma sigue en inglés (it. ya no se convierte en ruso).
+- Un doble Shift convierte una palabra seleccionada en Chrome y en apps Electron, y una pulsación corta del Command derecho toma de ellas el texto seleccionado en lugar de iniciar una captura de pantalla.
+- El reconocimiento de texto en pantalla muestra «Reconociendo el texto…» y avisa si no se pudo reconocer; si el reconocedor del sistema falla, se reintenta en la CPU y en un proceso nuevo, sin reiniciar Nothy.
+- Enter en el editor de capturas ya no envía el texto del panel, un doble Command derecho en las notas mejora la propia nota y las etiquetas de la parte inferior del panel están traducidas a todos los idiomas.
+- El doble Shift y el cambio automático de distribución funcionan en todos los campos de Nothy: notas, fragmentos, búsqueda, ajustes y comentarios de capturas.
+- El conmutador recuerda las palabras que corregiste dos veces de la misma forma con un doble Shift y a partir de entonces las convierte solo.
+- El conmutador reconoce más: términos como PWA, CRM, SDD y nombres de modelos, comandos de Claude Code mientras los escribes, una letra suelta después de una palabra inglesa, una coma pegada a una palabra, un Shift atascado, mayúsculas en teclas de símbolos, contracciones inglesas como I'm, el signo de dólar tras un importe y el signo de interrogación tras una palabra.
+- En los ajustes puedes elegir el modelo de OpenRouter predeterminado, incluido DeepSeek V4.1 Flash.
+
 ## 2.1.39 — 2026-09-18
 
 ### Русский
