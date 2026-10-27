@@ -1,5 +1,46 @@
 # Dictum Nothy — changelog
 
+## 2.1.91 — 2026-10-28
+
+### Русский
+
+Переключатель раскладки сам исправляет заметно больше слов и реже ошибается, исключения задаются парой «Было → Стало», а выученные слова теперь видны. Панель Dictum можно перетаскивать, диктовка быстрее под нагрузкой.
+
+- Раскладка: на реальных исправлениях автоматическая замена справляется сама с 265 словами из 557 вместо 205, а ложных замен в обычном русском тексте стало почти вдвое меньше. Слова вроде «пдф», «сгенерировать», «дашборд», «субагенты» больше не портятся при наборе и возвращаются, если набраны в английской раскладке.
+- Раскладка: адрес почты, набранный в русской раскладке, становится адресом (щты"пьфшдюсщь → ons@gmail.com); одиночная «Ю» между словами — знак «>»; 3в → 3d, 120и → 120b, 44зч → 44px; в начале строки /сд и Tab дают /cl.
+- Исключения раскладки задаются двумя полями «Было» и «Стало»: «Стало» заполняется само. Противоречащие правила не сохраняются, а уже сохранённые помечаются «Не действует». Обычное слово (например «ту») сохраняется только после предупреждения. В исключениях можно использовать цифры и знаки: юутм → .env, /ку → /re.
+- В реестре раскладки появилась вкладка «Выученные»: слова, которые Dictum выучил после двух одинаковых исправлений, можно увидеть и забыть. Исправления схлопываются по повторам, отмечено, что теперь исправляется само, а кнопка «В исключения» сохраняет исправление правилом.
+- Двойной Shift после слова превращает русскую кавычку в @ и ; в $ (щты" → ons@), как и подсказывает клавиша; вопрос, запятая и двоеточие остаются.
+- Панель Dictum можно перетащить за верхнюю строку: вдоль верхнего края, вниз в свободное положение или на другой монитор; у верхнего центра она примагничивается обратно, а место запоминается для каждого экрана.
+- Диктовка остаётся быстрой и не теряет слова, когда Mac нагружен сборками и ему не хватает памяти; звук начала диктовки звучит один раз.
+- Для обработки текста используется GPT-OSS 120B; в простое Dictum почти не тратит процессор, а замена раскладки укладывается в 60 мс и не задерживает клавиатуру.
+
+### English
+
+The layout switcher fixes noticeably more words on its own and errs less often, exceptions are set as a “Before → After” pair, and learned words are now visible. The Dictum panel can be dragged, and dictation is faster under load.
+
+- Layout: on real corrections the automatic switch now handles 265 words out of 557 instead of 205, and false switches in ordinary Russian text dropped by almost half. Words such as «пдф», «сгенерировать», «дашборд», «субагенты» are no longer broken while typed and come back when typed in the English layout.
+- Layout: an email address typed in the Russian layout becomes the address (щты"пьфшдюсщь → ons@gmail.com); a lone «Ю» between words is the “>” sign; 3в → 3d, 120и → 120b, 44зч → 44px; at the start of a line /сд and Tab give /cl.
+- Layout exceptions are set with two fields, “Before” and “After”: “After” fills itself in. Contradicting rules are not saved, and ones already saved are marked “Inactive”. An ordinary word (such as «ту») is saved only after a warning. Exceptions may contain digits and signs: юутм → .env, /ку → /re.
+- The layout registry has a new “Learned” tab: words Dictum learned after two identical corrections can be seen and forgotten. Corrections are grouped by repeats, marked when they are now fixed automatically, and the “To exceptions” button saves a correction as a rule.
+- Double Shift after a word turns the Russian quote into @ and ; into $ (щты" → ons@), as the key says; a question mark, comma and colon stay.
+- The Dictum panel can be dragged by its top row: along the top edge, down into a free position or to another display; near the top centre it snaps back, and its place is remembered for every screen.
+- Dictation stays fast and keeps every word when the Mac is busy with builds and short of memory; the dictation start sound plays once.
+- Text processing uses GPT-OSS 120B; Dictum barely uses the processor when idle, and a layout switch fits in 60 ms without holding up the keyboard.
+
+### Español
+
+El cambio de distribución corrige solo bastantes más palabras y se equivoca menos, las excepciones se definen como un par «Antes → Después» y las palabras aprendidas ahora son visibles. El panel de Dictum se puede arrastrar y el dictado es más rápido bajo carga.
+
+- Distribución: en correcciones reales el cambio automático resuelve 265 palabras de 557 en lugar de 205, y los cambios erróneos en texto ruso normal bajaron casi a la mitad. Palabras como «пдф», «сгенерировать», «дашборд», «субагенты» ya no se estropean al escribirlas y vuelven si se escriben en la distribución inglesa.
+- Distribución: una dirección de correo escrita en la distribución rusa se convierte en la dirección (щты"пьфшдюсщь → ons@gmail.com); una «Ю» suelta entre palabras es el signo «>»; 3в → 3d, 120и → 120b, 44зч → 44px; al inicio de una línea /сд y Tab dan /cl.
+- Las excepciones de distribución se definen con dos campos, «Antes» y «Después»: «Después» se rellena solo. Las reglas contradictorias no se guardan y las ya guardadas se marcan «Inactiva». Una palabra común (como «ту») se guarda solo tras un aviso. Las excepciones admiten cifras y signos: юутм → .env, /ку → /re.
+- El registro de distribución tiene una nueva pestaña «Aprendidas»: las palabras que Dictum aprendió tras dos correcciones iguales se pueden ver y olvidar. Las correcciones se agrupan por repeticiones, se marca cuándo ya se corrigen solas y el botón «A excepciones» guarda una corrección como regla.
+- El doble Shift tras una palabra convierte la comilla rusa en @ y ; en $ (щты" → ons@), como indica la tecla; el signo de interrogación, la coma y los dos puntos se mantienen.
+- El panel de Dictum se puede arrastrar por su fila superior: a lo largo del borde superior, hacia abajo a una posición libre o a otra pantalla; cerca del centro superior vuelve a acoplarse, y su lugar se recuerda en cada pantalla.
+- El dictado sigue siendo rápido y no pierde palabras cuando el Mac está ocupado con compilaciones y le falta memoria; el sonido de inicio del dictado suena una vez.
+- El procesamiento de texto usa GPT-OSS 120B; Dictum apenas usa el procesador en reposo, y el cambio de distribución cabe en 60 ms sin retener el teclado.
+
 ## 2.1.82 — 2026-10-15
 
 ### Русский
