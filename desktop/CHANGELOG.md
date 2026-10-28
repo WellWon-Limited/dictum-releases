@@ -1,5 +1,25 @@
 # Dictum Nothy — changelog
 
+## 2.1.92 — 2026-10-28
+
+### Русский
+
+Новый звук прилипания панели: он звучит как пара к звуку отлипания.
+
+- Когда панель прилипает обратно к верхнему краю, звучит тот же звук, что при отлипании, только ниже и чуть дольше, как «открыл — закрыл».
+
+### English
+
+A new panel attach sound that pairs with the detach sound.
+
+- When the panel attaches back to the top edge it plays the detach sound, only lower and slightly longer, like an open–close pair.
+
+### Español
+
+Un nuevo sonido al acoplar el panel que hace pareja con el sonido al despegarlo.
+
+- Cuando el panel vuelve a acoplarse al borde superior suena el mismo sonido que al despegarlo, solo que más grave y algo más largo, como un par abrir–cerrar.
+
 ## 2.1.91 — 2026-10-28
 
 ### Русский

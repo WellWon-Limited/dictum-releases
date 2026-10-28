@@ -7,6 +7,22 @@
     <language>en</language>
 
     <item>
+      <title>Dictum Nothy 2.1.92</title>
+      <pubDate>Wed, 28 Oct 2026 06:55:15 GMT</pubDate>
+      <sparkle:version>2001092</sparkle:version>
+      <sparkle:shortVersionString>2.1.92</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[[ru]
+<p>Новый звук прилипания панели: он звучит как пара к звуку отлипания.</p><ul><li>Когда панель прилипает обратно к верхнему краю, звучит тот же звук, что при отлипании, только ниже и чуть дольше, как «открыл — закрыл».</li></ul>
+[en]
+<p>A new panel attach sound that pairs with the detach sound.</p><ul><li>When the panel attaches back to the top edge it plays the detach sound, only lower and slightly longer, like an open–close pair.</li></ul>
+[es]
+<p>Un nuevo sonido al acoplar el panel que hace pareja con el sonido al despegarlo.</p><ul><li>Cuando el panel vuelve a acoplarse al borde superior suena el mismo sonido que al despegarlo, solo que más grave y algo más largo, como un par abrir–cerrar.</li></ul>]]></description>
+      <dictum:sha256>0e0bbd13974cf8dc14cd8f4d0e8b83638d25156a9d32c3bdf53c69fa6fae64ae</dictum:sha256>
+      <enclosure url="https://github.com/WellWon-Limited/dictum-releases/releases/download/nothy-v2.1.92/Dictum-Nothy-2.1.92-macos.zip" length="13274537" type="application/octet-stream" sparkle:version="2001092" sparkle:shortVersionString="2.1.92" />
+    </item>
+
+    <item>
       <title>Dictum Nothy 2.1.91</title>
       <pubDate>Tue, 27 Oct 2026 21:12:02 GMT</pubDate>
       <sparkle:version>2001091</sparkle:version>
