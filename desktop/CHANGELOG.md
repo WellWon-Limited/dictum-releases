@@ -1,5 +1,34 @@
 # Dictum Nothy — changelog
 
+## 2.1.94 — 2026-10-29
+
+### Русский
+
+Перенос панели всегда завершается после отпускания мыши, даже если страница не ответила; неудачное распознавание можно повторить; промпты и сниппеты сохраняются по одной записи, импорт резервной копии идёт одним шагом.
+
+- Если ответ страницы о завершении переноса терялся, панель продолжала считаться перетаскиваемой и вся её область перехватывала клики. Теперь перенос завершается нативно через треть секунды после отпускания кнопки, а поздние ответы страницы игнорируются. Добавлена трасса, какое окно принимает клики.
+- Сохранение настроек больше не держит главный поток во время записи на диск: перенос, прилипание и положение панели не подвисают при одновременном изменении настроек или импорте.
+- Если распознавание не удалось, запись сохраняется две минуты и в сообщении об ошибке есть кнопка «Повторить». Отброшенная запись больше не попадает в движок.
+- Промпты и сниппеты из Настроек и панелей сохраняются по одной записи: два открытых окна больше не затирают правки друг друга. Импорт резервной копии выполняется одним шагом под общими замками; при сбое отчёт в папке восстановления перечисляет заменённые разделы.
+
+### English
+
+Panel drags always finish after the mouse is released even if the page did not reply; a failed recognition can be retried; prompts and snippets save one record at a time; backup import runs as one step.
+
+- If the page's drag-end reply was lost, the panel stayed in drag mode and its whole area swallowed clicks. The drag now ends natively a third of a second after the button is released, and late page replies are ignored. A trace records which window takes clicks.
+- Saving settings no longer holds the main thread during disk writes: drag, attach and panel placement do not stall while settings change or an import runs.
+- When recognition fails, the recording is kept for two minutes and the error message offers Retry. A discarded recording no longer reaches the engine.
+- Prompts and snippets from Settings and the panels save one record at a time: two open windows no longer overwrite each other. Backup import runs as one step under shared locks; on failure the recovery folder lists the replaced sections.
+
+### Español
+
+El arrastre del panel siempre termina al soltar el ratón aunque la página no responda; un reconocimiento fallido se puede reintentar; los prompts y fragmentos se guardan de uno en uno; la importación de la copia de seguridad se ejecuta en un solo paso.
+
+- Si se perdía la respuesta de la página al terminar el arrastre, el panel seguía en modo arrastre y toda su área capturaba los clics. Ahora el arrastre termina de forma nativa un tercio de segundo después de soltar el botón y las respuestas tardías se ignoran. Se añadió un registro de qué ventana recibe los clics.
+- Guardar los ajustes ya no retiene el hilo principal durante la escritura en disco: el arrastre, el acople y la posición del panel no se congelan mientras cambian los ajustes o se importa.
+- Si el reconocimiento falla, la grabación se conserva dos minutos y el mensaje de error ofrece Reintentar. Una grabación descartada ya no llega al motor.
+- Los prompts y fragmentos de Ajustes y de los paneles se guardan de uno en uno: dos ventanas abiertas ya no se sobrescriben. La importación de la copia de seguridad se ejecuta en un solo paso con bloqueos compartidos; si falla, la carpeta de recuperación enumera las secciones reemplazadas.
+
 ## 2.1.93 — 2026-10-29
 
 ### Русский

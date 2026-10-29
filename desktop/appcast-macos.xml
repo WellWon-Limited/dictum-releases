@@ -7,6 +7,22 @@
     <language>en</language>
 
     <item>
+      <title>Dictum Nothy 2.1.94</title>
+      <pubDate>Thu, 29 Oct 2026 16:57:48 GMT</pubDate>
+      <sparkle:version>2001094</sparkle:version>
+      <sparkle:shortVersionString>2.1.94</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[[ru]
+<p>Перенос панели всегда завершается после отпускания мыши, даже если страница не ответила; неудачное распознавание можно повторить; промпты и сниппеты сохраняются по одной записи, импорт резервной копии идёт одним шагом.</p><ul><li>Если ответ страницы о завершении переноса терялся, панель продолжала считаться перетаскиваемой и вся её область перехватывала клики. Теперь перенос завершается нативно через треть секунды после отпускания кнопки, а поздние ответы страницы игнорируются. Добавлена трасса, какое окно принимает клики.</li><li>Сохранение настроек больше не держит главный поток во время записи на диск: перенос, прилипание и положение панели не подвисают при одновременном изменении настроек или импорте.</li><li>Если распознавание не удалось, запись сохраняется две минуты и в сообщении об ошибке есть кнопка «Повторить». Отброшенная запись больше не попадает в движок.</li><li>Промпты и сниппеты из Настроек и панелей сохраняются по одной записи: два открытых окна больше не затирают правки друг друга. Импорт резервной копии выполняется одним шагом под общими замками; при сбое отчёт в папке восстановления перечисляет заменённые разделы.</li></ul>
+[en]
+<p>Panel drags always finish after the mouse is released even if the page did not reply; a failed recognition can be retried; prompts and snippets save one record at a time; backup import runs as one step.</p><ul><li>If the page&apos;s drag-end reply was lost, the panel stayed in drag mode and its whole area swallowed clicks. The drag now ends natively a third of a second after the button is released, and late page replies are ignored. A trace records which window takes clicks.</li><li>Saving settings no longer holds the main thread during disk writes: drag, attach and panel placement do not stall while settings change or an import runs.</li><li>When recognition fails, the recording is kept for two minutes and the error message offers Retry. A discarded recording no longer reaches the engine.</li><li>Prompts and snippets from Settings and the panels save one record at a time: two open windows no longer overwrite each other. Backup import runs as one step under shared locks; on failure the recovery folder lists the replaced sections.</li></ul>
+[es]
+<p>El arrastre del panel siempre termina al soltar el ratón aunque la página no responda; un reconocimiento fallido se puede reintentar; los prompts y fragmentos se guardan de uno en uno; la importación de la copia de seguridad se ejecuta en un solo paso.</p><ul><li>Si se perdía la respuesta de la página al terminar el arrastre, el panel seguía en modo arrastre y toda su área capturaba los clics. Ahora el arrastre termina de forma nativa un tercio de segundo después de soltar el botón y las respuestas tardías se ignoran. Se añadió un registro de qué ventana recibe los clics.</li><li>Guardar los ajustes ya no retiene el hilo principal durante la escritura en disco: el arrastre, el acople y la posición del panel no se congelan mientras cambian los ajustes o se importa.</li><li>Si el reconocimiento falla, la grabación se conserva dos minutos y el mensaje de error ofrece Reintentar. Una grabación descartada ya no llega al motor.</li><li>Los prompts y fragmentos de Ajustes y de los paneles se guardan de uno en uno: dos ventanas abiertas ya no se sobrescriben. La importación de la copia de seguridad se ejecuta en un solo paso con bloqueos compartidos; si falla, la carpeta de recuperación enumera las secciones reemplazadas.</li></ul>]]></description>
+      <dictum:sha256>80de276e1e4409dd83451c3540b71f5d6aab4ee184679909b037f28590b7db98</dictum:sha256>
+      <enclosure url="https://github.com/WellWon-Limited/dictum-releases/releases/download/nothy-v2.1.94/Dictum-Nothy-2.1.94-macos.zip" length="13368965" type="application/octet-stream" sparkle:version="2001094" sparkle:shortVersionString="2.1.94" />
+    </item>
+
+    <item>
       <title>Dictum Nothy 2.1.93</title>
       <pubDate>Thu, 29 Oct 2026 15:25:36 GMT</pubDate>
       <sparkle:version>2001093</sparkle:version>
