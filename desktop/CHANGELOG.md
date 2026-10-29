@@ -1,5 +1,52 @@
 # Dictum Nothy — changelog
 
+## 2.1.93 — 2026-10-29
+
+### Русский
+
+Сохранность текста и файлов: исправление раскладки больше не стирает начало текста, Enter на «Отмена» не удаляет, ответ AI не затирает ваши правки; надёжнее окна, звук прилипания, диктовка и обновления.
+
+- Автоисправление раскладки после паузы, тире, кавычек или длинного текста меняло не тот участок и могло удалить начало. Теперь оно сверяет своё место в тексте и при сомнении пропускает исправление.
+- Enter на кнопке «Отмена» в диалогах удаления подтверждал удаление. Теперь Enter действует на ту кнопку, где стоит фокус.
+- Ответ AI, выбранный промпт и восстановление после ошибки затирали текст, который вы дописали во время ожидания. Теперь ваши правки сохраняются.
+- Редактор скриншотов: позднее сохранение предыдущего снимка могло подменить, удалить или закрыть новый. Каждое действие теперь проверяет, что снимок не сменился.
+- Повреждённый или нечитаемый файл настроек, промптов или сниппетов больше не перезаписывается значениями по умолчанию: оригинал сохраняется в копию, запись блокируется. Редакторы промптов и сниппетов не закрываются при ошибке сохранения.
+- Установка обновления во время диктовки или с открытой панелью теперь отклоняется с подсказкой, в том числе из меню в строке состояния. Отмена загрузки срабатывает сразу, размер загрузки ограничен.
+- Панель: быстрое закрытие и повторное открытие больше не оставляет пустое или невидимое окно; открытие из Dock проходит штатный показ; звук прилипания звучит ровно один раз в момент прилипания и не звучит при отрыве.
+- Диктовка: длинные записи больше не теряются из-за фиксированного таймаута распознавания; запись ограничена 30 минутами с уведомлением; сбой резервного движка сообщается как ошибка, а не как пустой результат; громкость восстанавливается при выходе и на том же устройстве.
+- AI: русские буквы на стыке сетевых пакетов не превращаются в знаки вопроса, оборванный ответ не принимается за готовый, отмена действует только на отменённый запрос.
+- Исправление выделения двойным Shift не вставляет старый результат в другое поле, если вы кликнули в другое место, и возвращает раскладку при отказе.
+
+### English
+
+Text and file safety: layout correction no longer deletes the start of your text, Enter on Cancel never deletes, an AI answer never overwrites your edits; more reliable windows, attach sound, dictation and updates.
+
+- Layout auto-correction after a pause, a dash, quotes or a long text could replace the wrong span and delete the beginning. It now re-anchors itself and skips the correction when unsure.
+- Enter on the Cancel button in delete dialogs confirmed the deletion. Enter now acts on the focused button only.
+- An AI answer, a chosen prompt or an error recovery overwrote text you typed while waiting. Your edits are kept now.
+- Screenshot editor: a late save of the previous image could replace, delete or close the new one. Every action now checks that the image has not changed.
+- A corrupt or unreadable settings, prompts or snippets file is no longer overwritten with defaults: the original is preserved and writes are refused. Prompt and snippet editors stay open when saving fails.
+- Installing an update during dictation or with the input panel open is now refused with a hint, including from the menu bar menu. Cancelling a download takes effect immediately and downloads are size-capped.
+- Panel: a fast close and reopen no longer leaves an empty or invisible window; opening from the Dock uses the normal reveal; the attach sound plays exactly once at the moment of attaching and never on detach.
+- Dictation: long recordings are no longer lost to a fixed recognition timeout; recording is capped at 30 minutes with a notice; a fallback engine failure is reported as an error instead of an empty result; volume is restored on quit and on the same device.
+- AI: Cyrillic letters split across network packets no longer turn into replacement characters, a truncated answer is not accepted as complete, and cancel affects only the cancelled request.
+- Double-Shift selection correction no longer types a stale result into another field after you clicked elsewhere, and restores the layout when refused.
+
+### Español
+
+Seguridad del texto y los archivos: la corrección de distribución ya no borra el inicio del texto, Intro en Cancelar nunca elimina, una respuesta de IA no sobrescribe tus cambios; ventanas, sonido de acople, dictado y actualizaciones más fiables.
+
+- La corrección automática de distribución tras una pausa, un guion, comillas o un texto largo podía reemplazar el fragmento equivocado y borrar el inicio. Ahora verifica su posición y omite la corrección si hay dudas.
+- Intro en el botón Cancelar de los diálogos de borrado confirmaba el borrado. Ahora Intro actúa solo sobre el botón enfocado.
+- Una respuesta de IA, un prompt elegido o la recuperación tras un error sobrescribían el texto escrito mientras esperabas. Ahora se conservan tus cambios.
+- Editor de capturas: un guardado tardío de la imagen anterior podía reemplazar, borrar o cerrar la nueva. Cada acción comprueba ahora que la imagen no cambió.
+- Un archivo de ajustes, prompts o fragmentos dañado o ilegible ya no se sobrescribe con valores por defecto: el original se conserva y la escritura se rechaza. Los editores de prompts y fragmentos no se cierran si falla el guardado.
+- Instalar una actualización durante el dictado o con el panel abierto ahora se rechaza con un aviso, también desde el menú de la barra de estado. Cancelar una descarga surte efecto de inmediato y las descargas tienen un límite de tamaño.
+- Panel: cerrar y reabrir rápido ya no deja una ventana vacía o invisible; abrir desde el Dock usa la presentación normal; el sonido de acople suena exactamente una vez al acoplar y nunca al despegar.
+- Dictado: las grabaciones largas ya no se pierden por un tiempo de espera fijo del reconocimiento; la grabación se limita a 30 minutos con aviso; un fallo del motor de respaldo se informa como error y no como resultado vacío; el volumen se restaura al salir y en el mismo dispositivo.
+- IA: las letras cirílicas divididas entre paquetes de red ya no se convierten en signos de sustitución, una respuesta truncada no se acepta como completa y cancelar afecta solo a la solicitud cancelada.
+- La corrección de selección con doble Shift ya no escribe un resultado antiguo en otro campo si hiciste clic en otro lugar, y restaura la distribución cuando se rechaza.
+
 ## 2.1.92 — 2026-10-28
 
 ### Русский
