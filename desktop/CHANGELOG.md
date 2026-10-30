@@ -1,5 +1,31 @@
 # Dictum Nothy — changelog
 
+## 2.1.96 — 2026-10-30
+
+### Русский
+
+Невидимое окно больше не перехватывает клики, а Dictum всегда открывается по хоткею: окно обновления появляется только после отрисовки и не перекрывает панель, панель и «бровь» сбрасывают приём кликов при каждом показе и скрытии, зависшие показы и уведомления снимаются по сроку.
+
+- При ожидающем обновлении «Открыть Dictum» и хоткей открывали окно обновления до того, как оно отрисуется: прозрачное окно 800×620 под вырезом съедало клики, а каждый вызов панели глушился, пока оно «видимо». Теперь окно обновления создаётся скрытым, показывается после отрисовки точно по размеру карточки и на экране с курсором; если страница не отрисовалась за 3 секунды, окно удаляется; повторное нажатие хоткея всегда возвращает панель.
+- Панель ввода и «бровь» сбрасывают приём кликов при каждом показе, скрытии, смене рабочего стола и захвате экрана; окно с нулевой прозрачностью клики не принимает. Подготовленный показ, который страница не подтвердила, снимается через 2 секунды (8 секунд для первого показа после запуска), закрытие страницы привязано к эпохе показа, а подтверждённая отрисовка считается показом даже при потере события.
+- Хоткеи больше не остаются выключенными, если панель закрылась во время записи сочетания в настройках; опрос переднего приложения ушёл с главного потока, чтобы его задержка не замораживала обработку кликов; раскрытое уведомление «брови» истекает по сроку даже при зависшей странице; после захвата экрана панель возвращается на свой экран по его идентификатору; скриншот считается готовым только после открытия редактора, иначе через 5 секунд выводится сообщение и снимок остаётся на полке.
+
+### English
+
+An invisible window can no longer take clicks and Dictum always opens on its hotkey: the update window appears only once drawn and never blocks the panel, the panel and the brow reset click handling at every show and hide, and stuck shows and notices expire on a deadline.
+
+- With a pending update, Open Dictum and the hotkey opened the update window before it was drawn: a transparent 800×620 window under the notch ate clicks and every panel call was swallowed while it was "visible". The update window is now created hidden, shown after it is drawn, fitted to its card and placed on the display with the cursor; if the page does not draw within 3 seconds the window is removed; a second hotkey press always brings the panel back.
+- The input panel and the brow reset click handling at every show, hide, Space change and screen capture; a fully transparent window takes no clicks. A prepared show the page never confirms is abandoned after 2 seconds (8 seconds for the first show after launch), page closes are tied to the show epoch, and a confirmed paint counts as shown even if the event is lost.
+- Hotkeys no longer stay disabled when the panel closed during shortcut recording in Settings; the foreground-app poll left the main thread so its delay cannot freeze click handling; an expanded brow notice expires on a deadline even with a stuck page; after a screen capture the panel returns to its own display by id; a screenshot counts as done only after the editor opens, otherwise a notice appears after 5 seconds and the shot stays on the shelf.
+
+### Español
+
+Una ventana invisible ya no captura clics y Dictum siempre se abre con su atajo: la ventana de actualización aparece solo una vez dibujada y nunca bloquea el panel, el panel y la ceja restablecen la gestión de clics en cada apertura y cierre, y las aperturas y avisos atascados caducan por tiempo.
+
+- Con una actualización pendiente, Abrir Dictum y el atajo abrían la ventana de actualización antes de dibujarse: una ventana transparente de 800×620 bajo la muesca capturaba clics y cada llamada al panel se perdía mientras estaba «visible». Ahora la ventana se crea oculta, se muestra tras dibujarse, ajustada a su tarjeta y en la pantalla del cursor; si la página no se dibuja en 3 segundos, la ventana se elimina; una segunda pulsación del atajo siempre devuelve el panel.
+- El panel de entrada y la ceja restablecen la gestión de clics en cada apertura, cierre, cambio de escritorio y captura de pantalla; una ventana totalmente transparente no recibe clics. Una apertura preparada que la página no confirma se abandona a los 2 segundos (8 en la primera apertura tras el inicio), los cierres de la página van ligados a la época de apertura y un dibujado confirmado cuenta como mostrado aunque se pierda el evento.
+- Los atajos ya no quedan desactivados si el panel se cerró durante la grabación de una combinación en Ajustes; la consulta de la aplicación en primer plano salió del hilo principal para que su retraso no congele los clics; un aviso desplegado de la ceja caduca aunque la página esté bloqueada; tras una captura el panel vuelve a su pantalla por identificador; una captura cuenta como hecha solo cuando se abre el editor; si no, a los 5 segundos aparece un aviso y la imagen queda en la bandeja.
+
 ## 2.1.95 — 2026-10-30
 
 ### Русский
