@@ -1,5 +1,34 @@
 # Dictum Nothy — changelog
 
+## 2.1.95 — 2026-10-30
+
+### Русский
+
+Надёжное обновление: установка находит настоящую папку приложения даже при запуске из образа диска или временной копии, ждёт реального выхода, никогда не оставляет без работающего Dictum и не зависает в окне обновления; все шаги пишутся в диагностику.
+
+- Если Dictum был открыт прямо из образа диска или скопирован без Finder, macOS запускает его из временной копии; раньше установка обновления завершала приложение, не могла заменить его и ничего не перезапускала. Теперь установщик находит настоящую папку приложения, а при запуске с образа диска или из папки без прав на запись заранее показывает, что нужно перетащить Dictum Nothy в «Программы».
+- Замена приложения ждёт реального выхода старой версии, а не одну секунду; если приложение не завершилось само, оно завершается принудительно через 5–10 секунд. При любом сбое замены прежняя версия возвращается на место и перезапускается, новая открывается только пока резервная копия ещё цела.
+- Окно обновления больше не блокируется навсегда на «Устанавливаем»: каждая проверка (подпись, версия, распаковка) ограничена по времени, ошибки установки всегда показываются с кнопкой «Повторить», а если приложение не перезапустилось, через 70 секунд окно сообщает об этом и даёт закрыть себя.
+- Диагностика обновлений: проверка, загрузка, распаковка, проверка подписи, установка и выход записываются в папку Diagnostics/Updates с длительностью каждого шага, чтобы причину сбоя можно было установить по файлу.
+
+### English
+
+Reliable updates: the installer finds the real application folder even when launched from a disk image or a temporary copy, waits for the real exit, never leaves you without a running Dictum and never hangs in the update window; every step is recorded in diagnostics.
+
+- If Dictum was opened straight from the disk image or copied without Finder, macOS runs it from a temporary copy; the update used to quit the app, fail to replace it and relaunch nothing. The installer now resolves the real application folder and, when running from a disk image or a folder without write access, tells you in advance to drag Dictum Nothy to Applications.
+- The replacement waits for the old version to actually exit instead of one second; if the app does not quit on its own it is terminated after 5-10 seconds. On any replacement failure the previous version is put back and relaunched, and the new one is opened only while the backup copy still exists.
+- The update window no longer stays stuck on "Installing": every check (signature, version, extraction) is time-limited, install errors are always shown with a Retry button, and if the app did not restart the window says so after 70 seconds and can be closed.
+- Update diagnostics: check, download, extraction, signature check, install and exit are recorded in Diagnostics/Updates with the duration of each step, so a failure can be traced from the file.
+
+### Español
+
+Actualizaciones fiables: el instalador encuentra la carpeta real de la aplicación aunque se haya abierto desde una imagen de disco o una copia temporal, espera la salida real, nunca te deja sin un Dictum en marcha y nunca se queda colgado en la ventana de actualización; cada paso se registra en los diagnósticos.
+
+- Si Dictum se abría directamente desde la imagen de disco o se copiaba sin Finder, macOS lo ejecuta desde una copia temporal; la actualización cerraba la aplicación, no podía reemplazarla y no relanzaba nada. Ahora el instalador localiza la carpeta real de la aplicación y, al ejecutarse desde una imagen de disco o una carpeta sin permiso de escritura, avisa de antemano que hay que arrastrar Dictum Nothy a Aplicaciones.
+- El reemplazo espera a que la versión anterior salga de verdad en lugar de un segundo; si la aplicación no se cierra sola, se termina a los 5-10 segundos. Ante cualquier fallo del reemplazo, la versión anterior vuelve a su sitio y se relanza, y la nueva se abre solo mientras la copia de seguridad siga intacta.
+- La ventana de actualización ya no se queda bloqueada en «Instalando»: cada comprobación (firma, versión, extracción) tiene un tiempo límite, los errores de instalación siempre se muestran con un botón «Reintentar» y, si la aplicación no se reinició, la ventana lo indica a los 70 segundos y se puede cerrar.
+- Diagnóstico de actualizaciones: la comprobación, la descarga, la extracción, la verificación de firma, la instalación y la salida se registran en Diagnostics/Updates con la duración de cada paso, para poder rastrear un fallo desde el archivo.
+
 ## 2.1.94 — 2026-10-29
 
 ### Русский
