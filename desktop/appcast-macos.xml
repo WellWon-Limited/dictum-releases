@@ -7,6 +7,22 @@
     <language>en</language>
 
     <item>
+      <title>Dictum Nothy 2.1.98</title>
+      <pubDate>Thu, 19 Nov 2026 08:21:57 GMT</pubDate>
+      <sparkle:version>2001098</sparkle:version>
+      <sparkle:shortVersionString>2.1.98</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[[ru]
+<p>Когда другое приложение включает «безопасный ввод» (поле пароля в браузере, Secure Keyboard Entry в Терминале) и свитчер раскладки из-за этого молчит, «бровь» теперь говорит об этом и, если держатель определён уверенно, предлагает перейти в него.</p><ul><li>Пока macOS держит «безопасный ввод», исправление раскладки не получает нажатия клавиш и молча прекращается, хотя диктовка работает; это выглядело как поломка Dictum. Теперь через полторы секунды такого режима «бровь» показывает одной строкой «Безопасный ввод: Arc — «Вход в …»» с кнопкой «Перейти», которая активирует это приложение и поднимает его окно, чтобы вы вышли из поля пароля. Если macOS не даёт уверенно назвать держателя, строка общая: «Безопасный ввод включён другим приложением». Уведомление исчезает само, когда режим снят; текст заголовков окон в диагностику не пишется.</li></ul>
+[en]
+<p>When another app turns on Secure Keyboard Entry (a password field in a browser, Terminal&apos;s Secure Keyboard Entry) and the layout switcher goes silent because of it, the brow now says so and, when the holder is identified with confidence, offers to jump to it.</p><ul><li>While macOS holds Secure Keyboard Entry, layout correction receives no keystrokes and silently stops although dictation keeps working; it looked like a Dictum failure. After a second and a half of that mode the brow now shows one line, &quot;Secure input: Arc — “Sign in …”&quot;, with a Go button that activates that app and raises its window so you can leave the password field. When macOS cannot name the holder with confidence the line is generic: &quot;Another app has secure input on&quot;. The notice disappears by itself once the mode is released; window titles are never written to diagnostics.</li></ul>
+[es]
+<p>Cuando otra aplicación activa la entrada segura (un campo de contraseña en el navegador, Secure Keyboard Entry en Terminal) y por ello el conmutador de distribución deja de actuar, la ceja ahora lo indica y, si el responsable se identifica con certeza, ofrece ir a él.</p><ul><li>Mientras macOS mantiene la entrada segura, la corrección de distribución no recibe pulsaciones y se detiene en silencio aunque el dictado siga funcionando; parecía un fallo de Dictum. Tras segundo y medio en ese modo, la ceja muestra una línea, «Entrada segura: Arc — “Iniciar sesión …”», con un botón «Ir» que activa esa aplicación y trae su ventana al frente para salir del campo de contraseña. Si macOS no permite identificar al responsable con certeza, la línea es genérica: «Otra aplicación tiene activada la entrada segura». El aviso desaparece solo cuando se libera el modo; los títulos de ventana nunca se escriben en el diagnóstico.</li></ul>]]></description>
+      <dictum:sha256>991fc43372baeba63eb90704e6e30e9181ed85951474f4efbb8c492ca4d48de9</dictum:sha256>
+      <enclosure url="https://github.com/WellWon-Limited/dictum-releases/releases/download/nothy-v2.1.98/Dictum-Nothy-2.1.98-macos.zip" length="13501726" type="application/octet-stream" sparkle:version="2001098" sparkle:shortVersionString="2.1.98" />
+    </item>
+
+    <item>
       <title>Dictum Nothy 2.1.97</title>
       <pubDate>Thu, 19 Nov 2026 07:05:45 GMT</pubDate>
       <sparkle:version>2001097</sparkle:version>

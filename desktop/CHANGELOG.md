@@ -1,5 +1,25 @@
 # Dictum Nothy — changelog
 
+## 2.1.98 — 2026-11-19
+
+### Русский
+
+Когда другое приложение включает «безопасный ввод» (поле пароля в браузере, Secure Keyboard Entry в Терминале) и свитчер раскладки из-за этого молчит, «бровь» теперь говорит об этом и, если держатель определён уверенно, предлагает перейти в него.
+
+- Пока macOS держит «безопасный ввод», исправление раскладки не получает нажатия клавиш и молча прекращается, хотя диктовка работает; это выглядело как поломка Dictum. Теперь через полторы секунды такого режима «бровь» показывает одной строкой «Безопасный ввод: Arc — «Вход в …»» с кнопкой «Перейти», которая активирует это приложение и поднимает его окно, чтобы вы вышли из поля пароля. Если macOS не даёт уверенно назвать держателя, строка общая: «Безопасный ввод включён другим приложением». Уведомление исчезает само, когда режим снят; текст заголовков окон в диагностику не пишется.
+
+### English
+
+When another app turns on Secure Keyboard Entry (a password field in a browser, Terminal's Secure Keyboard Entry) and the layout switcher goes silent because of it, the brow now says so and, when the holder is identified with confidence, offers to jump to it.
+
+- While macOS holds Secure Keyboard Entry, layout correction receives no keystrokes and silently stops although dictation keeps working; it looked like a Dictum failure. After a second and a half of that mode the brow now shows one line, "Secure input: Arc — “Sign in …”", with a Go button that activates that app and raises its window so you can leave the password field. When macOS cannot name the holder with confidence the line is generic: "Another app has secure input on". The notice disappears by itself once the mode is released; window titles are never written to diagnostics.
+
+### Español
+
+Cuando otra aplicación activa la entrada segura (un campo de contraseña en el navegador, Secure Keyboard Entry en Terminal) y por ello el conmutador de distribución deja de actuar, la ceja ahora lo indica y, si el responsable se identifica con certeza, ofrece ir a él.
+
+- Mientras macOS mantiene la entrada segura, la corrección de distribución no recibe pulsaciones y se detiene en silencio aunque el dictado siga funcionando; parecía un fallo de Dictum. Tras segundo y medio en ese modo, la ceja muestra una línea, «Entrada segura: Arc — “Iniciar sesión …”», con un botón «Ir» que activa esa aplicación y trae su ventana al frente para salir del campo de contraseña. Si macOS no permite identificar al responsable con certeza, la línea es genérica: «Otra aplicación tiene activada la entrada segura». El aviso desaparece solo cuando se libera el modo; los títulos de ventana nunca se escriben en el diagnóstico.
+
 ## 2.1.97 — 2026-11-06
 
 ### Русский
