@@ -1,5 +1,31 @@
 # Dictum Nothy — changelog
 
+## 2.1.97 — 2026-11-06
+
+### Русский
+
+Онбординг больше не ждёт загрузку речевой модели: мастер доходит до конца, а маленькая «бровь» показывает ход загрузки, готовность и ошибку с кнопкой «Повторить»; загрузку ведёт само приложение в фоне.
+
+- Пока модель распознавания не скачалась, мастер настройки не пускал дальше шага «Модель», а «Начать работу» возвращал на первый шаг: пользователь ходил по кругу в большом окне и не мог ничего сделать. Теперь мастер завершается при любом состоянии модели, кроме явной ошибки без повтора, и сворачивается в маленькую «бровь».
+- После онбординга «бровь» показывает статус модели одной строкой: «Загрузка модели… 43%», «Модель загружается…», «Модель готова» (исчезает через 3 секунды), «Не удалось загрузить модель — Повторить». Попытка диктовки до готовности не открывает панель и не пишет звук, а показывает этот статус; в открытой панели появляется подсказка с процентом.
+- Загрузку модели ведёт само приложение, а не страница мастера: она начинается при запуске, если модели нет, продолжается после закрытия мастера и не запускается дважды; Настройки показывают тот же ход загрузки.
+
+### English
+
+Onboarding no longer waits for the speech model: the wizard reaches the end while the small brow shows the download progress, readiness and an error with Retry; the app itself drives the download in the background.
+
+- While the recognition model was still downloading, the setup wizard blocked on the Model step and Finish sent you back to step one: you went in circles in the large window and could do nothing. The wizard now finishes in any model state except an explicit error without Retry, and collapses into the small brow.
+- After onboarding the brow shows the model status on one line: "Downloading model… 43%", "Loading model…", "Model ready" (gone after 3 seconds), "Model download failed — Retry". A dictation attempt before readiness opens no panel and records nothing; it shows this status, and an open panel gets a hint with the percent.
+- The app itself drives the model download, not the wizard page: it starts at launch when the model is missing, continues after the wizard closes and never runs twice; Settings shows the same progress.
+
+### Español
+
+La configuración inicial ya no espera a que se descargue el modelo de voz: el asistente llega al final y la pequeña ceja muestra el progreso de descarga, la disponibilidad y un error con «Reintentar»; la propia aplicación gestiona la descarga en segundo plano.
+
+- Mientras el modelo de reconocimiento se descargaba, el asistente se bloqueaba en el paso «Modelo» y «Finalizar» devolvía al primer paso: se daba vueltas en la ventana grande sin poder hacer nada. Ahora el asistente termina en cualquier estado del modelo salvo un error explícito sin reintento y se repliega en la pequeña ceja.
+- Tras la configuración, la ceja muestra el estado del modelo en una línea: «Descargando modelo… 43%», «Cargando modelo…», «Modelo listo» (desaparece a los 3 segundos), «No se pudo descargar el modelo — Reintentar». Un intento de dictado antes de estar listo no abre el panel ni graba nada; muestra este estado y, si el panel está abierto, una pista con el porcentaje.
+- La propia aplicación gestiona la descarga del modelo, no la página del asistente: empieza al iniciar si falta el modelo, continúa tras cerrar el asistente y nunca se ejecuta dos veces; Ajustes muestra el mismo progreso.
+
 ## 2.1.96 — 2026-10-30
 
 ### Русский
