@@ -1,5 +1,28 @@
 # Dictum Nothy — changelog
 
+## 2.1.99 — 2026-11-20
+
+### Русский
+
+Исправлено: когда в канале лежала более новая версия, окно записи открывалось через раз, а вместо него выскакивала карточка обновления. Теперь карточка показывается не чаще одного раза за запуск, никогда не мешает удержанию клавиши для записи, а быстрое повторное нажатие не отменяет открывающееся окно.
+
+- Если у вас стояла 2.1.97, а в канале уже была 2.1.98, первое нажатие правого Cmd показывало карточку обновления, второе её закрывало и открывало окно записи, третье окно скрывало, четвёртое снова показывало карточку. Закрытие карточки нажатием не запоминалось, и она возвращалась при каждом втором открытии; при удержании клавиши карточка могла появиться без записи или запись шла без видимого окна. Теперь любая отмена карточки (второе нажатие, Escape, «Позже», удержание клавиши, таймаут отрисовки) откладывает предложение этой версии до следующего запуска, удержание всегда ведёт к записи, а решение «показать карточку или окно» принимается один раз за нажатие.
+- Быстрое второе нажатие, пока окно ещё только появляется, больше не считается «закрыть»: окно остаётся. Проверка готовности речевой модели перед записью относится только к локальному движку; при выбранном Apple Speech загрузка модели Parakeet запись не блокирует.
+
+### English
+
+Fixed: with a newer version waiting in the channel, the recording panel opened only every other time and the update card popped up instead. The card is now offered at most once per launch, never interrupts a hold-to-record, and a quick second press no longer cancels a panel that is still appearing.
+
+- If you were on 2.1.97 while 2.1.98 was already in the channel, the first Right Cmd press showed the update card, the second closed it and opened the recording panel, the third hid the panel and the fourth showed the card again. Closing the card with a press was not remembered, so it came back on every other open; during a hold the card could appear without recording or the recording ran without a visible panel. Now any dismissal of the card (second press, Escape, Later, a hold, the paint timeout) postpones that version's offer until the next launch, a hold always records, and the card-or-panel decision is made once per press.
+- A quick second press while the panel is still appearing is no longer treated as close: the panel stays. The speech-model readiness check before recording applies only to the local engine; with Apple Speech selected, a Parakeet download does not block recording.
+
+### Español
+
+Corregido: con una versión más nueva esperando en el canal, el panel de grabación se abría solo una de cada dos veces y en su lugar aparecía la tarjeta de actualización. Ahora la tarjeta se ofrece como máximo una vez por inicio, nunca interrumpe la grabación con la tecla mantenida y una segunda pulsación rápida ya no cancela un panel que todavía está apareciendo.
+
+- Si tenía 2.1.97 mientras 2.1.98 ya estaba en el canal, la primera pulsación de Cmd derecho mostraba la tarjeta de actualización, la segunda la cerraba y abría el panel de grabación, la tercera ocultaba el panel y la cuarta mostraba la tarjeta otra vez. Cerrar la tarjeta con una pulsación no se recordaba, así que volvía en cada segunda apertura; al mantener la tecla, la tarjeta podía aparecer sin grabar o la grabación seguía sin panel visible. Ahora cualquier cierre de la tarjeta (segunda pulsación, Escape, Más tarde, tecla mantenida, tiempo de dibujo agotado) aplaza la oferta de esa versión hasta el próximo inicio, mantener la tecla siempre graba y la decisión tarjeta-o-panel se toma una vez por pulsación.
+- Una segunda pulsación rápida mientras el panel todavía aparece ya no se interpreta como cerrar: el panel se mantiene. La comprobación de la disponibilidad del modelo de voz antes de grabar se aplica solo al motor local; con Apple Speech seleccionado, la descarga del modelo Parakeet no bloquea la grabación.
+
 ## 2.1.98 — 2026-11-19
 
 ### Русский
