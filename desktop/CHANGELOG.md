@@ -1,5 +1,31 @@
 # Dictum Nothy — changelog
 
+## 2.1.107 — 2026-11-27
+
+### Русский
+
+Исправлено: запись больше не идёт без видимого окна. Если окно не успело отрисоваться, Dictum показывает его снова, пока идёт запись; окно, оставленное открытым на другом мониторе или в полноэкранном приложении, переезжает туда, где вы работаете.
+
+- Если при удержании клавиши записи окно не успевало отрисоваться (после сна, при нехватке памяти, после долгого простоя), Dictum прятал его, а запись продолжалась вслепую; открыть окно получалось только следующим нажатием. Теперь окно показывается снова, пока идёт запись, и ещё несколько раз после отпускания клавиши, чтобы вы увидели результат; если окно так и не открылось, вверху экрана появляется «Панель не открылась». Пока окно не видно, оно не перехватывает клавиатуру.
+- Окно с текстом, оставленное открытым на другом мониторе или в другом полноэкранном приложении, при новом удержании клавиши переезжает на экран, где вы работаете, вместе с текстом. Раньше запись шла в окно, которого не было видно. Окно, в котором вы сейчас печатаете, не двигается.
+- Если у вас стоит 2.1.98 или старше и запись иногда идёт без окна, а открывается оно только вторым нажатием, — это ошибка старой версии при ожидающем обновлении: установите обновление, когда запись не идёт.
+
+### English
+
+Fixed: recording no longer runs without a visible panel. If the panel did not paint in time, Dictum shows it again while the recording runs; a panel left open on another display or in a full-screen app moves to where you work.
+
+- If the panel did not paint in time during a hold-to-record (after sleep, under memory pressure, after a long idle), Dictum hid it while the recording went on blind, and only the next press opened it. Now the panel is shown again while the recording runs, and a few more times after you release the key so you see the result; if it still does not open, «The panel did not open» appears at the top of the screen. While the panel is not visible it does not take the keyboard.
+- A panel with text left open on another display or another full-screen app now moves, with its text, to the screen where you work when you hold the key again. Before, the recording went into a panel you could not see. A panel you are typing in does not move.
+- If you are on 2.1.98 or older and the recording sometimes runs without a panel that only opens on the second press, that is a defect of the old version while an update is waiting: install the update when no recording is running.
+
+### Español
+
+Corregido: la grabación ya no sigue sin un panel visible. Si el panel no se dibujó a tiempo, Dictum lo vuelve a mostrar mientras se graba; un panel abierto en otra pantalla o en una app a pantalla completa se mueve a donde usted trabaja.
+
+- Si el panel no se dibujaba a tiempo al mantener la tecla de grabación (tras el reposo, con poca memoria, tras mucho tiempo inactivo), Dictum lo ocultaba y la grabación seguía a ciegas; solo la siguiente pulsación lo abría. Ahora el panel se vuelve a mostrar mientras se graba, y unas veces más tras soltar la tecla para que vea el resultado; si aun así no se abre, aparece «El panel no se abrió» en la parte superior de la pantalla. Mientras el panel no se ve, no toma el teclado.
+- Un panel con texto abierto en otra pantalla o en otra app a pantalla completa ahora se mueve, con su texto, a la pantalla donde usted trabaja al volver a mantener la tecla. Antes la grabación iba a un panel que no se veía. El panel en el que está escribiendo no se mueve.
+- Si tiene 2.1.98 o anterior y a veces la grabación sigue sin panel y este solo se abre con la segunda pulsación, es un fallo de la versión antigua mientras hay una actualización pendiente: instale la actualización cuando no esté grabando.
+
 ## 2.1.99 — 2026-11-20
 
 ### Русский
